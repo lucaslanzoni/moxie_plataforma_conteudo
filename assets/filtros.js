@@ -6,6 +6,11 @@ function selecionado(sel) {
   return sel != null && sel !== '' && sel !== 'Todos';
 }
 
+// Normaliza para busca: remove acentos e caixa, para "cenario" achar "Cenário".
+function normalizar(s) {
+  return String(s).normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+}
+
 export function filtrarCards(cards, filtros = {}) {
   return cards.filter((card) => {
     for (const dim of DIMS_UNICA) {
@@ -17,12 +22,12 @@ export function filtrarCards(cards, filtros = {}) {
         if (!vals.includes(filtros[dim])) return false;
       }
     }
-    const busca = (filtros.busca || '').trim().toLowerCase();
+    const busca = normalizar((filtros.busca || '').trim());
     if (busca) {
-      const alvo = [
+      const alvo = normalizar([
         card.titulo, card.descricao, card.categoria, card.objetivo, card.funil,
         ...(card.formato || []), ...(card.rede || []), ...(card.sensacao || []),
-      ].filter(Boolean).join(' ').toLowerCase();
+      ].filter(Boolean).join(' '));
       if (!alvo.includes(busca)) return false;
     }
     return true;

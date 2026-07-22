@@ -26,6 +26,7 @@ test('filtros combinam com AND entre dimensões', () => {
 test('busca textual varre titulo e descricao, case-insensitive', () => {
   assert.deepEqual(filtrarCards(cards, { busca: 'mascote' }).map((c) => c.id), ['b']);
   assert.deepEqual(filtrarCards(cards, { busca: 'CENÁRIO' }).map((c) => c.id), ['a']);
+  assert.deepEqual(filtrarCards(cards, { busca: 'cenario' }).map((c) => c.id), ['a']); // sem acento
 });
 test('contarResultado devolve filtrados e total', () => {
   const f = filtrarCards(cards, { funil: 'Topo' });
