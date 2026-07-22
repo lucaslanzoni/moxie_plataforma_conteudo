@@ -33,7 +33,14 @@
       "formato": ["Vídeo", "Foto única", "Carrossel"],
       "rede": ["Instagram", "TikTok", "Pinterest"],
       "descricao": "O primeiro frame decide se alguém para de rolar. O produto entra sozinho, sem explicação, numa composição que já provoca vontade antes de qualquer contexto.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DPmXO1JESnO/",
+          "print": "prints/asteric-produto-impacto.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "visual-hook-cenario",
@@ -46,7 +53,14 @@
       "formato": ["Vídeo", "Foto única", "Carrossel"],
       "rede": ["Instagram", "TikTok", "Pinterest"],
       "descricao": "O que prende é o ambiente. A atmosfera, o mundo criado no enquadramento. O cenário desperta curiosidade na hora e, quando conversa com o lugar onde o público já se vê, vira identificação — essa é a minha vibe.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/reel/DbEpVZBhHNa/",
+          "print": "prints/sometimes-cenario.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "visual-hook-estampa-macro",
@@ -176,7 +190,14 @@
       "formato": ["Carrossel", "Foto única"],
       "rede": ["Instagram", "Pinterest"],
       "descricao": "Um mural de referências que formaram a estampa: foto de arquivo, capa de disco, still de filme. Mostra o repertório por trás do design, não só o resultado pronto.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@instadatara",
+          "url": "https://www.instagram.com/p/DZ8Pzx6P8rC/",
+          "print": "prints/tara-moodboard.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "carlos-aprova-produto",
