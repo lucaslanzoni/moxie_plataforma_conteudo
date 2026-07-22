@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moxie — Referências de Conteúdo</title>
+  <link rel="stylesheet" href="assets/estilo.css" />
+</head>
+<body>
+  <header class="topo">
+    <p class="instrucao">Usa os filtros pra achar a ideia certa pro momento da marca. Depois abre o card e vê o conteúdo original.</p>
+    <div class="marca"><span class="wordmark">moxie<span class="ponto">.</span></span> <span class="sub">referências de conteúdo</span></div>
+  </header>
+
+  <div class="barra-filtros">
+    <button id="toggle-filtros" class="toggle-filtros" aria-expanded="false" aria-controls="filtros">Filtros</button>
+    <div id="filtros" class="filtros">
+      <input id="busca" class="busca" type="search" placeholder="Buscar por categoria, ideia…" aria-label="Buscar" />
+      <label>Categoria <select id="filtro-categoria" data-dim="categoria"></select></label>
+      <label>Objetivo <select id="filtro-objetivo" data-dim="objetivo"></select></label>
+      <label>Funil <select id="filtro-funil" data-dim="funil"></select></label>
+      <label>Formato <select id="filtro-formato" data-dim="formato"></select></label>
+      <label>Sensação <select id="filtro-sensacao" data-dim="sensacao"></select></label>
+      <label>Rede <select id="filtro-rede" data-dim="rede"></select></label>
+      <button id="limpar-filtros" class="limpar">Limpar</button>
+    </div>
+  </div>
+
+  <div class="cabecalho-resultado">
+    <p id="contador" class="contador">carregando…</p>
+    <ul class="legenda-funil">
+      <li><span class="bolinha topo"></span>Topo</li>
+      <li><span class="bolinha meio"></span>Meio</li>
+      <li><span class="bolinha fundo"></span>Fundo</li>
+    </ul>
+  </div>
+
+  <main id="grid" class="grid" aria-live="polite"></main>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
