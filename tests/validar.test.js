@@ -49,6 +49,11 @@ test('referencia sem url falha', () => {
   const r = validarDados({ taxonomia, cards: [cardValido({ referencias: [{ handle: '@x', rede: 'Instagram' }] })] });
   assert.equal(r.ok, false);
 });
+test('card null não lança e falha', () => {
+  const r = validarDados({ taxonomia, cards: [null] });
+  assert.equal(r.ok, false);
+  assert.ok(r.erros.some((e) => e.includes('não é objeto')));
+});
 
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';

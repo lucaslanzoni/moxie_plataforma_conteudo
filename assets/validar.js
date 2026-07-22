@@ -14,6 +14,11 @@ export function validarDados(dados) {
   cards.forEach((card, i) => {
     const rotulo = `card[${i}] (${card && card.id ? card.id : 'sem id'})`;
 
+    if (!card || typeof card !== 'object') {
+      erros.push(`${rotulo}: card ausente ou não é objeto`);
+      return;
+    }
+
     if (!card.id) erros.push(`${rotulo}: id ausente`);
     else if (idsVistos.has(card.id)) erros.push(`${rotulo}: id duplicado`);
     else idsVistos.add(card.id);
