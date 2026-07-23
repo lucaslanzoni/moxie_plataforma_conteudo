@@ -1,12 +1,50 @@
 {
-  "meta": { "marca": "Moxie", "atualizado_em": "2026-07-22", "versao_schema": 1 },
+  "meta": {
+    "marca": "Moxie",
+    "atualizado_em": "2026-07-23",
+    "versao_schema": 1
+  },
   "taxonomia": {
-    "categoria": ["Visual Hook", "Bastidores", "Histórias & Manifesto", "Produto & Craft", "Cultura & Curadoria", "Carlos", "Comunidade/UGC", "Drop/Lançamento"],
-    "funil": ["Topo", "Meio", "Fundo"],
-    "objetivo": ["Ser Visto", "Relação", "Conversão"],
-    "formato": ["Vídeo", "Foto única", "Carrossel"],
-    "rede": ["Instagram", "TikTok", "Pinterest"],
-    "sensacao": ["Curiosidade", "Desejo consciente", "Desejo inconsciente", "Identificação", "Oportunidade", "Segurança", "Senso de apreendimento", "Transparência"]
+    "categoria": [
+      "Visual Hook",
+      "Bastidores",
+      "Histórias & Manifesto",
+      "Produto & Craft",
+      "Cultura & Curadoria",
+      "Mascote / Personagem",
+      "Comunidade/UGC",
+      "Drop/Lançamento"
+    ],
+    "funil": [
+      "Topo",
+      "Meio",
+      "Fundo"
+    ],
+    "objetivo": [
+      "Ser Visto",
+      "Relação",
+      "Conversão"
+    ],
+    "formato": [
+      "Vídeo",
+      "Foto única",
+      "Carrossel"
+    ],
+    "rede": [
+      "Instagram",
+      "TikTok",
+      "Pinterest"
+    ],
+    "sensacao": [
+      "Curiosidade",
+      "Desejo consciente",
+      "Desejo inconsciente",
+      "Identificação",
+      "Oportunidade",
+      "Segurança",
+      "Senso de apreendimento",
+      "Transparência"
+    ]
   },
   "cards": [
     {
@@ -14,11 +52,20 @@
       "numero": 1,
       "categoria": "Visual Hook",
       "titulo": "Proporção de objetos",
-      "sensacao": ["Curiosidade"],
+      "sensacao": [
+        "Curiosidade"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo", "Foto única"],
-      "rede": ["Instagram", "TikTok", "Pinterest"],
+      "formato": [
+        "Vídeo",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok",
+        "Pinterest"
+      ],
       "descricao": "Um objeto em escala errada trava o olho por um segundo a mais — o cérebro precisa entender o que está vendo antes de rolar pra frente. É esse segundo que interessa.",
       "referencias": []
     },
@@ -27,11 +74,22 @@
       "numero": 2,
       "categoria": "Visual Hook",
       "titulo": "Produto de impacto",
-      "sensacao": ["Desejo inconsciente", "Curiosidade"],
+      "sensacao": [
+        "Desejo inconsciente",
+        "Curiosidade"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo", "Foto única", "Carrossel"],
-      "rede": ["Instagram", "TikTok", "Pinterest"],
+      "formato": [
+        "Vídeo",
+        "Foto única",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok",
+        "Pinterest"
+      ],
       "descricao": "O primeiro frame decide se alguém para de rolar. O produto entra sozinho, sem explicação, numa composição que já provoca vontade antes de qualquer contexto.",
       "referencias": [
         {
@@ -47,11 +105,22 @@
       "numero": 3,
       "categoria": "Visual Hook",
       "titulo": "Cenário",
-      "sensacao": ["Curiosidade", "Identificação"],
+      "sensacao": [
+        "Curiosidade",
+        "Identificação"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo", "Foto única", "Carrossel"],
-      "rede": ["Instagram", "TikTok", "Pinterest"],
+      "formato": [
+        "Vídeo",
+        "Foto única",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok",
+        "Pinterest"
+      ],
       "descricao": "O que prende é o ambiente. A atmosfera, o mundo criado no enquadramento. O cenário desperta curiosidade na hora e, quando conversa com o lugar onde o público já se vê, vira identificação — essa é a minha vibe.",
       "referencias": [
         {
@@ -72,12 +141,22 @@
       "id": "visual-hook-estampa-macro",
       "numero": 4,
       "categoria": "Visual Hook",
-      "titulo": "Estampa em macro",
-      "sensacao": ["Curiosidade"],
+      "titulo": "Macro que revela",
+      "sensacao": [
+        "Curiosidade"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo", "Foto única", "Carrossel"],
-      "rede": ["Instagram", "TikTok", "Pinterest"],
+      "formato": [
+        "Vídeo",
+        "Foto única",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok",
+        "Pinterest"
+      ],
       "descricao": "Começa tão perto que a estampa vira abstração. Só quando a câmera abre é que a peça inteira aparece — a curiosidade carrega o espectador até a revelação.",
       "referencias": []
     },
@@ -86,11 +165,19 @@
       "numero": 5,
       "categoria": "Visual Hook",
       "titulo": "ASMR de tecido",
-      "sensacao": ["Curiosidade", "Desejo consciente"],
+      "sensacao": [
+        "Curiosidade",
+        "Desejo consciente"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "Microfone perto do tecido: o som do algodão esticando, da costura passando pela agulha. Não precisa de discurso — a textura já convence sozinha.",
       "referencias": []
     },
@@ -98,12 +185,21 @@
       "id": "historias-manifesto-historia-estampa",
       "numero": 6,
       "categoria": "Histórias & Manifesto",
-      "titulo": "A história da estampa",
-      "sensacao": ["Senso de apreendimento", "Identificação"],
+      "titulo": "A referência por trás do design",
+      "sensacao": [
+        "Senso de apreendimento",
+        "Identificação"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo", "Carrossel"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "Toda estampa carrega uma referência — a Moxie conta qual é. Quem já sacou se diverte reconhecendo; quem não sacou sai sabendo de algo novo. Essa é a assinatura da marca.",
       "referencias": []
     },
@@ -112,11 +208,20 @@
       "numero": 7,
       "categoria": "Histórias & Manifesto",
       "titulo": "Manifesto de marca",
-      "sensacao": ["Desejo inconsciente", "Identificação"],
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificação"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo", "Foto única"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "Uma peça editorial, sem venda direta, que diz quem é a Moxie e pra quem ela fala. Roupa pra quem entende a piada — isso já filtra o público certo.",
       "referencias": []
     },
@@ -125,11 +230,20 @@
       "numero": 8,
       "categoria": "Produto & Craft",
       "titulo": "Detalhe de acabamento",
-      "sensacao": ["Segurança", "Desejo consciente"],
+      "sensacao": [
+        "Segurança",
+        "Desejo consciente"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Carrossel", "Vídeo"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Carrossel",
+        "Vídeo"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "Close na gola, na costura, na gramatura. O acabamento fala pelo preço — sem que o preço precise ser dito. Quem entende de roupa reconhece o que a camiseta de banca não tem.",
       "referencias": []
     },
@@ -138,11 +252,20 @@
       "numero": 9,
       "categoria": "Produto & Craft",
       "titulo": "Caimento / provador",
-      "sensacao": ["Desejo consciente", "Segurança"],
+      "sensacao": [
+        "Desejo consciente",
+        "Segurança"
+      ],
       "objetivo": "Conversão",
       "funil": "Fundo",
-      "formato": ["Vídeo", "Foto única"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "Corpo real, movimento real, sem pose de catálogo. Mostra como a peça cai no dia a dia — a informação que de fato decide a compra.",
       "referencias": []
     },
@@ -150,12 +273,21 @@
       "id": "produto-craft-o-que-r39-nao-tem",
       "numero": 10,
       "categoria": "Produto & Craft",
-      "titulo": "O que R$39 não tem",
-      "sensacao": ["Transparência", "Segurança"],
+      "titulo": "Comparativo de qualidade",
+      "sensacao": [
+        "Transparência",
+        "Segurança"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo", "Carrossel"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "Lado a lado com a camiseta de banca: gramatura, corte, durabilidade. Não precisa falar mal da concorrência — só mostrar a diferença.",
       "referencias": []
     },
@@ -163,12 +295,21 @@
       "id": "cultura-curadoria-sp",
       "numero": 11,
       "categoria": "Cultura & Curadoria",
-      "titulo": "Curadoria de SP",
-      "sensacao": ["Identificação", "Senso de apreendimento"],
+      "titulo": "Curadoria local / cena",
+      "sensacao": [
+        "Identificação",
+        "Senso de apreendimento"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Carrossel", "Foto única"],
-      "rede": ["Instagram", "Pinterest"],
+      "formato": [
+        "Carrossel",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "Pinterest"
+      ],
       "descricao": "Um bar sem placa, uma loja de disco escondida, um lugar que só quem já mora no bairro conhece. A Moxie indica lugar, não só roupa.",
       "referencias": []
     },
@@ -177,11 +318,19 @@
       "numero": 12,
       "categoria": "Cultura & Curadoria",
       "titulo": "Trilha / referência musical",
-      "sensacao": ["Identificação", "Desejo inconsciente"],
+      "sensacao": [
+        "Identificação",
+        "Desejo inconsciente"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "A estampa tem uma trilha sonora óbvia pra quem sabe — soul, disco, MPB dos anos 70. O vídeo usa essa trilha e deixa a referência falar sozinha.",
       "referencias": []
     },
@@ -190,11 +339,20 @@
       "numero": 13,
       "categoria": "Cultura & Curadoria",
       "titulo": "Moodboard visual",
-      "sensacao": ["Curiosidade", "Identificação"],
+      "sensacao": [
+        "Curiosidade",
+        "Identificação"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Carrossel", "Foto única"],
-      "rede": ["Instagram", "Pinterest"],
+      "formato": [
+        "Carrossel",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "Pinterest"
+      ],
       "descricao": "Um mural de referências que formaram a estampa: foto de arquivo, capa de disco, still de filme. Mostra o repertório por trás do design, não só o resultado pronto.",
       "referencias": [
         {
@@ -206,119 +364,172 @@
       ]
     },
     {
-      "id": "carlos-aprova-produto",
+      "id": "mascote-personagem-apresenta",
       "numero": 14,
-      "categoria": "Carlos",
-      "titulo": "Carlos aprova o produto",
-      "sensacao": ["Identificação", "Curiosidade"],
+      "categoria": "Mascote / Personagem",
+      "titulo": "Mascote apresenta / opina",
+      "sensacao": [
+        "Identificação",
+        "Curiosidade"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo"],
-      "rede": ["Instagram", "TikTok"],
-      "descricao": "Carlos experimenta a peça e dá o veredito, sem entusiasmo forçado — do jeito seco que já é dele. A opinião pesa mais justamente por não parecer propaganda.",
-      "referencias": []
-    },
-    {
-      "id": "carlos-comenta-semana",
-      "numero": 15,
-      "categoria": "Carlos",
-      "titulo": "Carlos comenta a semana",
-      "sensacao": ["Identificação"],
-      "objetivo": "Relação",
-      "funil": "Meio",
-      "formato": ["Vídeo"],
-      "rede": ["Instagram", "TikTok"],
-      "descricao": "Uma coluna fixa: Carlos comenta o que aconteceu na semana, com a Moxie como pano de fundo. A recorrência é o que transforma isso em hábito de acompanhar.",
+      "formato": [
+        "Vídeo"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
+      "descricao": "Um personagem de marca com voz própria: testa a peça e dá o veredito seco, comenta a semana com a marca de pano de fundo. A recorrência vira hábito de acompanhar. Pra Moxie, é o Carlos — sem entusiasmo forçado, do jeito dele.",
       "referencias": []
     },
     {
       "id": "bastidores-processo-criativo",
-      "numero": 16,
+      "numero": 15,
       "categoria": "Bastidores",
       "titulo": "BTS – processo criativo",
-      "sensacao": ["Identificação", "Segurança"],
+      "sensacao": [
+        "Identificação",
+        "Segurança"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo", "Carrossel"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "O rascunho no caderno, os testes de cor, a referência que virou estampa final. Ver o processo cria confiança em quem projetou a peça.",
       "referencias": []
     },
     {
       "id": "bastidores-campanha-ensaio",
-      "numero": 17,
+      "numero": 16,
       "categoria": "Bastidores",
       "titulo": "BTS – campanha/ensaio",
-      "sensacao": ["Desejo inconsciente"],
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo", "Foto única"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "O que fica fora do corte final do editorial: luz sendo ajustada, still errado, risada entre takes. O bastidor vende o universo tanto quanto a foto pronta.",
       "referencias": []
     },
     {
       "id": "bastidores-producao-impressao",
-      "numero": 18,
+      "numero": 17,
       "categoria": "Bastidores",
       "titulo": "BTS – produção/impressão",
-      "sensacao": ["Transparência", "Segurança"],
+      "sensacao": [
+        "Transparência",
+        "Segurança"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Vídeo", "Carrossel"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "A serigrafia sendo feita, o tecido chegando, a etiqueta sendo costurada. Mostrar a produção tira o mistério — e mistério, aqui, não ajuda a marca.",
       "referencias": []
     },
     {
       "id": "comunidade-ugc-look-real-cliente",
-      "numero": 19,
+      "numero": 18,
       "categoria": "Comunidade/UGC",
       "titulo": "Look real do cliente",
-      "sensacao": ["Identificação", "Segurança"],
+      "sensacao": [
+        "Identificação",
+        "Segurança"
+      ],
       "objetivo": "Conversão",
       "funil": "Fundo",
-      "formato": ["Foto única", "Carrossel"],
-      "rede": ["Instagram"],
+      "formato": [
+        "Foto única",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram"
+      ],
       "descricao": "Alguém de verdade usando a peça no dia a dia, sem produção. Vale mais que qualquer editorial porque prova que a roupa existe fora da campanha.",
       "referencias": []
     },
     {
       "id": "comunidade-ugc-quem-entendeu-referencia",
-      "numero": 20,
+      "numero": 19,
       "categoria": "Comunidade/UGC",
-      "titulo": "Quem entendeu a referência",
-      "sensacao": ["Identificação"],
+      "titulo": "Piada interna",
+      "sensacao": [
+        "Identificação"
+      ],
       "objetivo": "Relação",
       "funil": "Meio",
-      "formato": ["Foto única", "Carrossel"],
-      "rede": ["Instagram"],
+      "formato": [
+        "Foto única",
+        "Carrossel"
+      ],
+      "rede": [
+        "Instagram"
+      ],
       "descricao": "Um post que só fecha por completo pra quem pegou a referência da estampa — e vira comentário de quem quer mostrar que também pegou. O repertório vira prova social.",
       "referencias": []
     },
     {
       "id": "drop-lancamento-teaser",
-      "numero": 21,
+      "numero": 20,
       "categoria": "Drop/Lançamento",
       "titulo": "Teaser de drop",
-      "sensacao": ["Curiosidade", "Oportunidade"],
+      "sensacao": [
+        "Curiosidade",
+        "Oportunidade"
+      ],
       "objetivo": "Ser Visto",
       "funil": "Topo",
-      "formato": ["Vídeo"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "De costas, sem mostrar a estampa, até o giro que revela a peça nova. A contagem regressiva do drop começa nesse corte.",
       "referencias": []
     },
     {
       "id": "drop-lancamento-abertura-carrinho",
-      "numero": 22,
+      "numero": 21,
       "categoria": "Drop/Lançamento",
       "titulo": "Abertura de carrinho",
-      "sensacao": ["Oportunidade", "Desejo consciente"],
+      "sensacao": [
+        "Oportunidade",
+        "Desejo consciente"
+      ],
       "objetivo": "Conversão",
       "funil": "Fundo",
-      "formato": ["Vídeo", "Foto única"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Vídeo",
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "O site abre, a coleção está no ar. Sem enrolação — quem já queria, já sabe que é agora.",
       "referencias": [
         {
@@ -331,14 +542,22 @@
     },
     {
       "id": "drop-lancamento-ultima-peca-esgotando",
-      "numero": 23,
+      "numero": 22,
       "categoria": "Drop/Lançamento",
       "titulo": "Última peça / esgotando",
-      "sensacao": ["Oportunidade"],
+      "sensacao": [
+        "Oportunidade"
+      ],
       "objetivo": "Conversão",
       "funil": "Fundo",
-      "formato": ["Foto única", "Vídeo"],
-      "rede": ["Instagram", "TikTok"],
+      "formato": [
+        "Foto única",
+        "Vídeo"
+      ],
+      "rede": [
+        "Instagram",
+        "TikTok"
+      ],
       "descricao": "O contador de estoque real, sem inflar número. A escassez, quando é verdadeira, não precisa de adjetivo.",
       "referencias": []
     }

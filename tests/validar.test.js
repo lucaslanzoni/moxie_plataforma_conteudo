@@ -65,7 +65,7 @@ test('dados.json real é válido e completo', () => {
   const dados = JSON.parse(readFileSync(join(__dir, '..', 'dados.json'), 'utf8'));
   const r = validarDados(dados);
   assert.equal(r.ok, true, r.erros.join('\n'));
-  assert.ok(dados.cards.length >= 23, `esperado >= 23 cards, veio ${dados.cards.length}`);
+  assert.ok(dados.cards.length >= 22, `esperado >= 22 cards, veio ${dados.cards.length}`);
   const ids = new Set(dados.cards.map((c) => c.id));
   assert.equal(ids.size, dados.cards.length, 'ids devem ser únicos');
 });
