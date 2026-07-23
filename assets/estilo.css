@@ -19,7 +19,9 @@ body {
   font-family: var(--fonte-corpo); line-height: 1.5;
 }
 
-.topo { background: var(--vermelho); color: var(--creme); padding: .6rem 1.2rem; }
+.topo { background: var(--vermelho); color: var(--creme); padding: 1rem 1.2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; }
+.topo-conteudo { flex: 1; min-width: 0; }
+.carlos { height: 108px; width: auto; flex-shrink: 0; display: block; }
 .instrucao { margin: 0; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; font-weight: 700; }
 .marca { display: flex; align-items: baseline; gap: .6rem; margin-top: .3rem; }
 .wordmark { font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.5rem; letter-spacing: -.02em; }
@@ -75,4 +77,5 @@ body {
   .filtros.aberto { display: flex; }
   .busca, .filtros select { width: 100%; }
   .cabecalho-resultado { flex-direction: column; align-items: flex-start; }
+  .carlos { height: 72px; }
 }
