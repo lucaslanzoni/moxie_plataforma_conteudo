@@ -23,6 +23,13 @@ def normaliza_url(u):
     return (u or "").split("?")[0].rstrip("/")
 
 
+def shortcode_de_url(u):
+    # extrai o shortCode de .../p/<sc>, .../reel/<sc>, .../tv/<sc> — dedup por
+    # shortCode é robusto a /p/ vs /reel/ (mesma mídia, URLs diferentes).
+    partes = normaliza_url(u).split("/")
+    return partes[-1] if partes and partes[-1] else ""
+
+
 def carregar_json(p, default):
     p = Path(p)
     return json.loads(p.read_text()) if p.exists() else default
@@ -38,13 +45,14 @@ def urls_publicadas(dados):
 
 
 def filtrar_novos(posts, vistos, publicadas):
+    pub_sc = {shortcode_de_url(u) for u in publicadas}
     novos = []
     for p in posts:
         sc = p.get("shortCode")
         url = normaliza_url(p.get("url", ""))
         if not sc or not url:
             continue
-        if sc in vistos or url in publicadas:
+        if sc in vistos or sc in pub_sc:
             continue
         novos.append(p)
     return novos

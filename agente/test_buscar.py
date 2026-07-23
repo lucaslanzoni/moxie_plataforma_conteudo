@@ -60,6 +60,12 @@ class TestFiltrarNovos(unittest.TestCase):
         novos = buscar.filtrar_novos(posts, vistos, publicadas)
         self.assertEqual([p["shortCode"] for p in novos], ["CCC"])
 
+    def test_dedup_por_shortcode_ignora_forma_url(self):
+        # publicado como /reel/, post volta como /p/ — mesma mídia, dedup pelo shortCode
+        posts = [post("XYZ", "https://www.instagram.com/p/XYZ/")]
+        publicadas = {"https://www.instagram.com/reel/XYZ"}
+        self.assertEqual(buscar.filtrar_novos(posts, set(), publicadas), [])
+
 
 class TestMontarPendente(unittest.TestCase):
     def test_shape_e_handle(self):
@@ -72,6 +78,16 @@ class TestMontarPendente(unittest.TestCase):
         self.assertEqual(p["handle"], "@marca")
         self.assertEqual(p["image"], "agente/pendentes/CCC.jpg")
         self.assertIn("scraped_at", p)
+
+
+class TestShortcode(unittest.TestCase):
+    def test_extrai_de_p_e_reel(self):
+        self.assertEqual(
+            buscar.shortcode_de_url("https://www.instagram.com/p/ABC/?x=1"), "ABC"
+        )
+        self.assertEqual(
+            buscar.shortcode_de_url("https://www.instagram.com/reel/ABC/"), "ABC"
+        )
 
 
 if __name__ == "__main__":
