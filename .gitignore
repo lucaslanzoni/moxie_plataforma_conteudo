@@ -1,0 +1,20 @@
+# segredos — NUNCA commitar (repo é público)
+.env
+.env.*
+*.env
+
+# python (agente da Fase 2)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# estado local do agente da Fase 2
+agente/pendentes/
+agente/pendentes.json
+agente/vistos.json
+agente/last_run.txt
+agente/custo_mes.json
