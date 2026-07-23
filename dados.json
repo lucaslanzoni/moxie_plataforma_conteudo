@@ -59,6 +59,12 @@
           "url": "https://www.instagram.com/reel/DbEpVZBhHNa/",
           "print": "prints/sometimes-cenario.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@joaodouradoo",
+          "url": "https://www.instagram.com/p/DLs0-lxJEE1/",
+          "print": "prints/DLs0-lxJEE1.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -314,7 +320,14 @@
       "formato": ["Vídeo", "Foto única"],
       "rede": ["Instagram", "TikTok"],
       "descricao": "O site abre, a coleção está no ar. Sem enrolação — quem já queria, já sabe que é agora.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DZLhH1zgQ7I/",
+          "print": "prints/DZLhH1zgQ7I.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "drop-lancamento-ultima-peca-esgotando",
