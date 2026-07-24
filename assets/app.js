@@ -27,7 +27,7 @@ function lerFiltros() {
 }
 
 function atualizarEstadoFiltros(soComRef) {
-  let algum = !!soComRef;
+  let algum = !soComRef;
   const busca = el('busca');
   const buscaAtiva = busca.value.trim() !== '';
   busca.classList.toggle('ativo', buscaAtiva);
@@ -53,7 +53,7 @@ function pilula(texto, classe = '') {
 function montarCard(card) {
   const art = document.createElement('article');
   art.className = 'card';
-  if ((card.referencias || []).length === 0) art.classList.add('vazio');
+  if ((card.referencias || []).length === 0) art.classList.add('sem-ref');
 
   const num = document.createElement('span');
   num.className = 'card-num'; num.textContent = String(card.numero ?? '').padStart(2, '0');
@@ -120,7 +120,7 @@ function render() {
 function limpar() {
   el('busca').value = '';
   for (const dim of DIMS) el('filtro-' + dim).value = 'Todos';
-  el('toggle-refs').setAttribute('aria-pressed', 'false');
+  el('toggle-refs').setAttribute('aria-pressed', 'true');
   render();
 }
 

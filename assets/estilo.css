@@ -54,7 +54,7 @@ body {
 .grupo-categoria > h2 { font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.1rem; text-transform: uppercase; letter-spacing: .04em; border-bottom: 2px solid var(--petroleo); padding-bottom: .2rem; margin: .5rem 0; }
 
 .card { break-inside: avoid; background: var(--branco-cartao); border: 1.5px solid var(--petroleo); border-radius: 3px; padding: 1rem; margin-bottom: 1rem; }
-.card.vazio { opacity: .55; }
+.card.sem-ref { opacity: .55; }
 .card-num { float: right; font-family: var(--fonte-titulo); font-weight: 800; color: var(--azul); }
 .card h3 { font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.25rem; text-transform: uppercase; margin: 0 0 .1rem; letter-spacing: -.01em; }
 .card .sensacoes { font-style: italic; font-size: .85rem; opacity: .8; margin: 0 0 .6rem; }
