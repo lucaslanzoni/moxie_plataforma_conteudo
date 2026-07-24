@@ -36,6 +36,10 @@ body {
 .busca { min-width: 220px; }
 .limpar { align-self: end; background: none; border: 1.5px solid var(--petroleo); color: var(--petroleo); font: inherit; font-size: .8rem; padding: .45rem .8rem; cursor: pointer; border-radius: 2px; }
 .limpar:hover { background: var(--petroleo); color: var(--creme); }
+.limpar.oculto { display: none; }
+.filtros select.ativo, .busca.ativo { border-color: var(--vermelho); box-shadow: inset 0 0 0 1px var(--vermelho); font-weight: 700; }
+.toggle-refs { align-self: end; background: none; border: 1.5px solid var(--petroleo); color: var(--petroleo); font: inherit; font-size: .8rem; padding: .45rem .8rem; cursor: pointer; border-radius: 2px; }
+.toggle-refs[aria-pressed="true"] { background: var(--petroleo); color: var(--creme); }
 
 .cabecalho-resultado { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1rem 1.2rem .4rem; flex-wrap: wrap; }
 .contador { margin: 0; font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.4rem; }
@@ -50,6 +54,7 @@ body {
 .grupo-categoria > h2 { font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.1rem; text-transform: uppercase; letter-spacing: .04em; border-bottom: 2px solid var(--petroleo); padding-bottom: .2rem; margin: .5rem 0; }
 
 .card { break-inside: avoid; background: var(--branco-cartao); border: 1.5px solid var(--petroleo); border-radius: 3px; padding: 1rem; margin-bottom: 1rem; }
+.card.vazio { opacity: .55; }
 .card-num { float: right; font-family: var(--fonte-titulo); font-weight: 800; color: var(--azul); }
 .card h3 { font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.25rem; text-transform: uppercase; margin: 0 0 .1rem; letter-spacing: -.01em; }
 .card .sensacoes { font-style: italic; font-size: .85rem; opacity: .8; margin: 0 0 .6rem; }

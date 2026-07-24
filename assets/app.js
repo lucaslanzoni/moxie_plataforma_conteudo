@@ -26,6 +26,21 @@ function lerFiltros() {
   return f;
 }
 
+function atualizarEstadoFiltros(soComRef) {
+  let algum = !!soComRef;
+  const busca = el('busca');
+  const buscaAtiva = busca.value.trim() !== '';
+  busca.classList.toggle('ativo', buscaAtiva);
+  if (buscaAtiva) algum = true;
+  for (const dim of DIMS) {
+    const sel = el('filtro-' + dim);
+    const ativo = sel.value !== 'Todos';
+    sel.classList.toggle('ativo', ativo);
+    if (ativo) algum = true;
+  }
+  el('limpar-filtros').classList.toggle('oculto', !algum);
+}
+
 function slugFunil(funil) {
   return { 'Topo': 'topo', 'Meio': 'meio', 'Fundo': 'fundo' }[funil] || '';
 }
@@ -38,6 +53,7 @@ function pilula(texto, classe = '') {
 function montarCard(card) {
   const art = document.createElement('article');
   art.className = 'card';
+  if ((card.referencias || []).length === 0) art.classList.add('vazio');
 
   const num = document.createElement('span');
   num.className = 'card-num'; num.textContent = String(card.numero ?? '').padStart(2, '0');
@@ -80,9 +96,12 @@ function montarCard(card) {
 
 function render() {
   const filtros = lerFiltros();
-  const filtrados = filtrarCards(DADOS.cards, filtros);
+  let filtrados = filtrarCards(DADOS.cards, filtros);
+  const soComRef = el('toggle-refs').getAttribute('aria-pressed') === 'true';
+  if (soComRef) filtrados = filtrados.filter((c) => (c.referencias || []).length > 0);
   const { filtrados: n, total } = contarResultado(filtrados, DADOS.cards.length);
   el('contador').innerHTML = `<strong>${n}</strong> de ${total} ideias`;
+  atualizarEstadoFiltros(soComRef);
 
   grid.innerHTML = '';
   if (n === 0) {
@@ -101,6 +120,7 @@ function render() {
 function limpar() {
   el('busca').value = '';
   for (const dim of DIMS) el('filtro-' + dim).value = 'Todos';
+  el('toggle-refs').setAttribute('aria-pressed', 'false');
   render();
 }
 
@@ -118,6 +138,11 @@ async function iniciar() {
   el('busca').addEventListener('input', render);
   for (const dim of DIMS) el('filtro-' + dim).addEventListener('change', render);
   el('limpar-filtros').addEventListener('click', limpar);
+  el('toggle-refs').addEventListener('click', () => {
+    const btn = el('toggle-refs');
+    btn.setAttribute('aria-pressed', btn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+    render();
+  });
   const toggle = el('toggle-filtros');
   toggle.addEventListener('click', () => {
     const aberto = el('filtros').classList.toggle('aberto');
