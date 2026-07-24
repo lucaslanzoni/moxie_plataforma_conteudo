@@ -1,8 +1,8 @@
 {
-  "total": 12,
+  "total": 13,
   "aprovado_sem_ajuste": 10,
   "ajustado": 0,
-  "rejeitado": 2,
+  "rejeitado": 3,
   "taxa_concordancia_card": 1.0,
   "por_card": {
     "bastidores-processo-criativo": {

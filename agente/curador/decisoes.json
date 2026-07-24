@@ -416,5 +416,40 @@
       "motivo": "detalhe de tênis, não de acabamento de peça de roupa"
     },
     "foi_correcao": true
+  },
+  {
+    "shortCode": "DaijRxmBoz7",
+    "url": "https://www.instagram.com/p/DaijRxmBoz7/",
+    "handle": "@onlineceramics",
+    "data": "2026-07-24",
+    "analise": {
+      "o_que_e": "colagem de slogans irônicos/filosóficos (Stickers)",
+      "angulo": "POV/atitude da marca",
+      "profundidade": "alta, mas é conteúdo de sticker",
+      "sinais": "'MEDITATION IS BRAINWASHING','I BELIEVE IN OURSELVES'"
+    },
+    "proposta": {
+      "card": "historias-manifesto-manifesto-marca",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificação"
+      ],
+      "formato": [
+        "Foto única"
+      ],
+      "rede": [
+        "Instagram"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "Lucas preferiu deixar o card vazio; slogans de sticker não fecham como manifesto pra Moxie"
+    },
+    "foi_correcao": true
   }
 ]
