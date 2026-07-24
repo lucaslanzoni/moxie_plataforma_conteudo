@@ -19,7 +19,7 @@ body {
   font-family: var(--fonte-corpo); line-height: 1.5;
 }
 
-.topo { background: var(--vermelho); color: var(--creme); padding: 1rem 1.2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; }
+.cabecalho { background: var(--vermelho); color: var(--creme); padding: 1rem 1.2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; }
 .topo-conteudo { flex: 1; min-width: 0; }
 .carlos { height: 108px; width: auto; flex-shrink: 0; display: block; }
 .instrucao { margin: 0; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; font-weight: 700; }
