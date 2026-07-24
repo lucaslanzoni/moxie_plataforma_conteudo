@@ -201,7 +201,14 @@
         "TikTok"
       ],
       "descricao": "Toda estampa carrega uma referência — a Moxie conta qual é. Quem já sacou se diverte reconhecendo; quem não sacou sai sabendo de algo novo. Essa é a assinatura da marca.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/DaypSi7NEQ8/",
+          "print": "prints/DaypSi7NEQ8.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "historias-manifesto-manifesto-marca",
@@ -267,7 +274,14 @@
         "TikTok"
       ],
       "descricao": "Corpo real, movimento real, sem pose de catálogo. Mostra como a peça cai no dia a dia — a informação que de fato decide a compra.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/DbCEg-ih5TM/",
+          "print": "prints/DbCEg-ih5TM.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "produto-craft-o-que-r39-nao-tem",
@@ -332,7 +346,14 @@
         "TikTok"
       ],
       "descricao": "A estampa tem uma trilha sonora óbvia pra quem sabe — soul, disco, MPB dos anos 70. O vídeo usa essa trilha e deixa a referência falar sozinha.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@aimeleondore",
+          "url": "https://www.instagram.com/p/DZsMNY1R_Ms/",
+          "print": "prints/DZsMNY1R_Ms.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "cultura-curadoria-moodboard-visual",
@@ -382,7 +403,14 @@
         "TikTok"
       ],
       "descricao": "Um personagem de marca com voz própria: testa a peça e dá o veredito seco, comenta a semana com a marca de pano de fundo. A recorrência vira hábito de acompanhar. Pra Moxie, é o Carlos — sem entusiasmo forçado, do jeito dele.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@usebemtevi",
+          "url": "https://www.instagram.com/p/Dav7xOyCY8R/",
+          "print": "prints/Dav7xOyCY8R.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "bastidores-processo-criativo",
@@ -404,7 +432,14 @@
         "TikTok"
       ],
       "descricao": "O rascunho no caderno, os testes de cor, a referência que virou estampa final. Ver o processo cria confiança em quem projetou a peça.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/DbHOGvLGvvX/",
+          "print": "prints/DbHOGvLGvvX.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "bastidores-campanha-ensaio",
@@ -425,7 +460,14 @@
         "TikTok"
       ],
       "descricao": "O que fica fora do corte final do editorial: luz sendo ajustada, still errado, risada entre takes. O bastidor vende o universo tanto quanto a foto pronta.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@bolovo",
+          "url": "https://www.instagram.com/p/DaS1Oq_xlWm/",
+          "print": "prints/DaS1Oq_xlWm.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "bastidores-producao-impressao",
@@ -447,7 +489,14 @@
         "TikTok"
       ],
       "descricao": "A serigrafia sendo feita, o tecido chegando, a etiqueta sendo costurada. Mostrar a produção tira o mistério — e mistério, aqui, não ajuda a marca.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@onlineceramics",
+          "url": "https://www.instagram.com/p/DaijXWZBBeh/",
+          "print": "prints/DaijXWZBBeh.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "comunidade-ugc-look-real-cliente",
@@ -468,7 +517,14 @@
         "Instagram"
       ],
       "descricao": "Alguém de verdade usando a peça no dia a dia, sem produção. Vale mais que qualquer editorial porque prova que a roupa existe fora da campanha.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@paolamacielt",
+          "url": "https://www.instagram.com/p/DXFr9Gmj7su/",
+          "print": "prints/DXFr9Gmj7su.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "comunidade-ugc-quem-entendeu-referencia",
@@ -488,7 +544,14 @@
         "Instagram"
       ],
       "descricao": "Um post que só fecha por completo pra quem pegou a referência da estampa — e vira comentário de quem quer mostrar que também pegou. O repertório vira prova social.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/Da75tXABny-/",
+          "print": "prints/Da75tXABny-.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "drop-lancamento-teaser",
@@ -509,7 +572,14 @@
         "TikTok"
       ],
       "descricao": "De costas, sem mostrar a estampa, até o giro que revela a peça nova. A contagem regressiva do drop começa nesse corte.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DZGXjYwgYwO/",
+          "print": "prints/DZGXjYwgYwO.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "drop-lancamento-abertura-carrinho",
