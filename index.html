@@ -8,6 +8,20 @@
   <link rel="stylesheet" href="assets/estilo.css" />
 </head>
 <body>
+  <div id="login" class="login">
+    <div class="login-caixa">
+      <img class="login-carlos" src="assets/carlos.png" alt="Carlos, o mascote caramelo da Moxie" />
+      <div class="login-marca"><span class="wordmark">moxie<span class="ponto">.</span></span></div>
+      <p class="login-titulo">Banco de referências</p>
+      <form id="login-form" class="login-form" novalidate>
+        <input id="login-email" class="login-email" type="email" inputmode="email" autocomplete="email" placeholder="seu@email.com" aria-label="Seu email" />
+        <button type="submit" class="login-btn">Entrar</button>
+      </form>
+      <p id="login-erro" class="login-erro" role="alert"></p>
+      <p class="login-nota">Acesso só pra emails liberados pela Moxie.</p>
+    </div>
+  </div>
+
   <header class="cabecalho">
     <div class="topo-conteudo">
       <p class="instrucao">Acha a ideia pelo momento da marca. Abre o card, vê o post original.</p>
@@ -28,6 +42,7 @@
       <label>Rede <select id="filtro-rede" data-dim="rede"></select></label>
       <button id="toggle-refs" class="toggle-refs" aria-pressed="true">Só com referência</button>
       <button id="limpar-filtros" class="limpar">Limpar</button>
+      <button id="sair" class="sair" type="button">Sair</button>
     </div>
   </div>
 
@@ -42,6 +57,6 @@
 
   <main id="grid" class="grid" aria-live="polite"></main>
 
-  <script type="module" src="assets/app.js"></script>
+  <script type="module" src="assets/acesso.js"></script>
 </body>
 </html>

@@ -124,7 +124,7 @@ function limpar() {
   render();
 }
 
-async function iniciar() {
+export async function iniciar() {
   try {
     const resp = await fetch('dados.json');
     DADOS = await resp.json();
@@ -151,4 +151,3 @@ async function iniciar() {
   render();
 }
 
-iniciar();
