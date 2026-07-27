@@ -1,8 +1,8 @@
 {
-  "total": 13,
-  "aprovado_sem_ajuste": 10,
+  "total": 36,
+  "aprovado_sem_ajuste": 25,
   "ajustado": 0,
-  "rejeitado": 3,
+  "rejeitado": 11,
   "taxa_concordancia_card": 1.0,
   "por_card": {
     "bastidores-processo-criativo": {
@@ -10,8 +10,8 @@
       "card_aceito": 1
     },
     "bastidores-campanha-ensaio": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 3,
+      "card_aceito": 3
     },
     "bastidores-producao-impressao": {
       "propostas": 1,
@@ -22,20 +22,20 @@
       "card_aceito": 1
     },
     "historias-manifesto-historia-estampa": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 2,
+      "card_aceito": 2
     },
     "cultura-curadoria-trilha-musical": {
       "propostas": 1,
       "card_aceito": 1
     },
     "drop-lancamento-teaser": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 4,
+      "card_aceito": 4
     },
     "comunidade-ugc-look-real-cliente": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 2,
+      "card_aceito": 2
     },
     "mascote-personagem-apresenta": {
       "propostas": 1,
@@ -44,7 +44,19 @@
     "comunidade-ugc-quem-entendeu-referencia": {
       "propostas": 1,
       "card_aceito": 1
+    },
+    "drop-lancamento-abertura-carrinho": {
+      "propostas": 1,
+      "card_aceito": 1
+    },
+    "visual-hook-produto-impacto": {
+      "propostas": 5,
+      "card_aceito": 5
+    },
+    "cultura-curadoria-moodboard-visual": {
+      "propostas": 2,
+      "card_aceito": 2
     }
   },
-  "atualizado_em": "2026-07-24"
+  "atualizado_em": "2026-07-27"
 }
