@@ -1,8 +1,8 @@
 {
-  "total": 36,
-  "aprovado_sem_ajuste": 25,
+  "total": 53,
+  "aprovado_sem_ajuste": 35,
   "ajustado": 0,
-  "rejeitado": 11,
+  "rejeitado": 18,
   "taxa_concordancia_card": 1.0,
   "por_card": {
     "bastidores-processo-criativo": {
@@ -30,8 +30,8 @@
       "card_aceito": 1
     },
     "drop-lancamento-teaser": {
-      "propostas": 4,
-      "card_aceito": 4
+      "propostas": 5,
+      "card_aceito": 5
     },
     "comunidade-ugc-look-real-cliente": {
       "propostas": 2,
@@ -46,16 +46,28 @@
       "card_aceito": 1
     },
     "drop-lancamento-abertura-carrinho": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 2,
+      "card_aceito": 2
     },
     "visual-hook-produto-impacto": {
-      "propostas": 5,
-      "card_aceito": 5
+      "propostas": 10,
+      "card_aceito": 10
     },
     "cultura-curadoria-moodboard-visual": {
       "propostas": 2,
       "card_aceito": 2
+    },
+    "visual-hook-cenario": {
+      "propostas": 1,
+      "card_aceito": 1
+    },
+    "drop-lancamento-ultima-peca-esgotando": {
+      "propostas": 1,
+      "card_aceito": 1
+    },
+    "produto-craft-acabamento": {
+      "propostas": 1,
+      "card_aceito": 1
     }
   },
   "atualizado_em": "2026-07-27"

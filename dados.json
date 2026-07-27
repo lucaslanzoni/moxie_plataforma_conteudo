@@ -127,6 +127,36 @@
           "url": "https://www.instagram.com/p/DZ755Ngm0VV/",
           "print": "prints/DZ755Ngm0VV.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/Da_fw6IB5D2/",
+          "print": "prints/Da_fw6IB5D2.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DZn8v2whPlq/",
+          "print": "prints/DZn8v2whPlq.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@bolovo",
+          "url": "https://www.instagram.com/p/DabKT41mmvu/",
+          "print": "prints/DabKT41mmvu.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@bolovo",
+          "url": "https://www.instagram.com/p/Dau8Qu2EZL7/",
+          "print": "prints/Dau8Qu2EZL7.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@aimeleondore",
+          "url": "https://www.instagram.com/p/Dah_ec4kcfw/",
+          "print": "prints/Dah_ec4kcfw.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -163,6 +193,12 @@
           "handle": "@joaodouradoo",
           "url": "https://www.instagram.com/p/DLs0-lxJEE1/",
           "print": "prints/DLs0-lxJEE1.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@bolovo",
+          "url": "https://www.instagram.com/p/DaNRomOmmuT/",
+          "print": "prints/DaNRomOmmuT.jpg",
           "rede": "Instagram"
         }
       ]
@@ -288,7 +324,14 @@
         "TikTok"
       ],
       "descricao": "Close na gola, na costura, na gramatura. O acabamento fala pelo preço — sem que o preço precise ser dito. Quem entende de roupa reconhece o que a camiseta de banca não tem.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@stussy",
+          "url": "https://www.instagram.com/p/DZp4VhLG0Hr/",
+          "print": "prints/DZp4VhLG0Hr.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "produto-craft-caimento-provador",
@@ -662,6 +705,12 @@
           "url": "https://www.instagram.com/p/DbEiaWuB0E0/",
           "print": "prints/DbEiaWuB0E0.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@aimeleondore",
+          "url": "https://www.instagram.com/p/DafZ4gfxjnc/",
+          "print": "prints/DafZ4gfxjnc.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -697,6 +746,12 @@
           "url": "https://www.instagram.com/p/Da26aMZFjSd/",
           "print": "prints/Da26aMZFjSd.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DUYZ1GakbYW/",
+          "print": "prints/DUYZ1GakbYW.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -719,7 +774,14 @@
         "TikTok"
       ],
       "descricao": "O contador de estoque real, sem inflar número. A escassez, quando é verdadeira, não precisa de adjetivo.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@usebemtevi",
+          "url": "https://www.instagram.com/p/Da3qcNgh7UQ/",
+          "print": "prints/Da3qcNgh7UQ.jpg",
+          "rede": "Instagram"
+        }
+      ]
     }
   ]
 }
