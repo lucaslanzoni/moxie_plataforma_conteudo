@@ -1,7 +1,7 @@
 {
   "meta": {
     "marca": "Moxie",
-    "atualizado_em": "2026-07-23",
+    "atualizado_em": "2026-07-29",
     "versao_schema": 1
   },
   "taxonomia": {
@@ -157,6 +157,12 @@
           "url": "https://www.instagram.com/p/Dah_ec4kcfw/",
           "print": "prints/Dah_ec4kcfw.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@stripmecamisetas",
+          "url": "https://www.instagram.com/p/DaIkcoVuDWN",
+          "print": "prints/DaIkcoVuDWN.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -200,6 +206,54 @@
           "url": "https://www.instagram.com/p/DaNRomOmmuT/",
           "print": "prints/DaNRomOmmuT.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/DbN89z2BsDr",
+          "print": "prints/DbN89z2BsDr.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@newdivisionshop",
+          "url": "https://www.instagram.com/p/CtrZ_nCgZQY",
+          "print": "prints/CtrZ_nCgZQY.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@elcabriton",
+          "url": "https://www.instagram.com/p/DaWJa4cBdmG",
+          "print": "prints/DaWJa4cBdmG.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@desgosto",
+          "url": "https://www.instagram.com/p/DbTViBNFTsX",
+          "print": "prints/DbTViBNFTsX.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@desgosto",
+          "url": "https://www.instagram.com/p/DbV3cWpFaOk",
+          "print": "prints/DbV3cWpFaOk.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@dengo.club",
+          "url": "https://www.instagram.com/p/DUTPSJzDh3g",
+          "print": "prints/DUTPSJzDh3g.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@elcabriton",
+          "url": "https://www.instagram.com/p/DbDsEbQhRs4",
+          "print": "prints/DbDsEbQhRs4.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DOgl1PogAVN",
+          "print": "prints/DOgl1PogAVN.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -224,7 +278,14 @@
         "Pinterest"
       ],
       "descricao": "Começa tão perto que a estampa vira abstração. Só quando a câmera abre é que a peça inteira aparece — a curiosidade carrega o espectador até a revelação.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@stripmecamisetas",
+          "url": "https://www.instagram.com/p/DbLflHxO6jY",
+          "print": "prints/DbLflHxO6jY.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "visual-hook-asmr-tecido",
@@ -245,7 +306,20 @@
         "TikTok"
       ],
       "descricao": "Microfone perto do tecido: o som do algodão esticando, da costura passando pela agulha. Não precisa de discurso — a textura já convence sozinha.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@desgosto",
+          "url": "https://www.instagram.com/p/DZqbYVYCDZO",
+          "print": "prints/DZqbYVYCDZO.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@desgosto",
+          "url": "https://www.instagram.com/p/DZBFhbYCs-t",
+          "print": "prints/DZBFhbYCs-t.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "historias-manifesto-historia-estampa",
@@ -279,6 +353,36 @@
           "url": "https://www.instagram.com/p/Da1MngihjCo/",
           "print": "prints/Da1MngihjCo.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@sound3vision",
+          "url": "https://www.instagram.com/p/DbGzCWvFgNL",
+          "print": "prints/DbGzCWvFgNL.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@sound3vision",
+          "url": "https://www.instagram.com/p/DbLqCytFrgA",
+          "print": "prints/DbLqCytFrgA.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@sound3vision",
+          "url": "https://www.instagram.com/p/DbWLZzblm1E",
+          "print": "prints/DbWLZzblm1E.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@elcabriton",
+          "url": "https://www.instagram.com/p/Da0QfZpFH62",
+          "print": "prints/Da0QfZpFH62.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@usebemtevi",
+          "url": "https://www.instagram.com/p/DasdhhKhZOO",
+          "print": "prints/DasdhhKhZOO.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -302,7 +406,20 @@
         "TikTok"
       ],
       "descricao": "Uma peça editorial, sem venda direta, que diz quem é a Moxie e pra quem ela fala. Roupa pra quem entende a piada — isso já filtra o público certo.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@newdivisionshop",
+          "url": "https://www.instagram.com/p/C9-0mPEJAzP",
+          "print": "prints/C9-0mPEJAzP.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@useasteric",
+          "url": "https://www.instagram.com/p/DMvSnE3gfYD",
+          "print": "prints/DMvSnE3gfYD.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "produto-craft-acabamento",
@@ -329,6 +446,24 @@
           "handle": "@stussy",
           "url": "https://www.instagram.com/p/DZp4VhLG0Hr/",
           "print": "prints/DZp4VhLG0Hr.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@stussy",
+          "url": "https://www.instagram.com/p/DZnOSp-Bh9p",
+          "print": "prints/DZnOSp-Bh9p.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/DbJy311hThs",
+          "print": "prints/DbJy311hThs.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@dengo.club",
+          "url": "https://www.instagram.com/p/DaQS9IOjhZ-",
+          "print": "prints/DaQS9IOjhZ-.jpg",
           "rede": "Instagram"
         }
       ]
@@ -358,6 +493,18 @@
           "handle": "@sometimes.online",
           "url": "https://www.instagram.com/p/DbCEg-ih5TM/",
           "print": "prints/DbCEg-ih5TM.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@carnan",
+          "url": "https://www.instagram.com/p/Da26Ys3ESQX",
+          "print": "prints/Da26Ys3ESQX.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@stripmecamisetas",
+          "url": "https://www.instagram.com/p/DaRJYbEphqu",
+          "print": "prints/DaRJYbEphqu.jpg",
           "rede": "Instagram"
         }
       ]
@@ -404,7 +551,32 @@
         "Pinterest"
       ],
       "descricao": "Um bar sem placa, uma loja de disco escondida, um lugar que só quem já mora no bairro conhece. A Moxie indica lugar, não só roupa.",
-      "referencias": []
+      "referencias": [
+        {
+          "handle": "@pontoapontoclube",
+          "url": "https://www.instagram.com/p/DbTEVf-xqWJ",
+          "print": "prints/DbTEVf-xqWJ.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@quintaldominhocao",
+          "url": "https://www.instagram.com/p/DbUATd8n_uT",
+          "print": "prints/DbUATd8n_uT.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@desgosto",
+          "url": "https://www.instagram.com/p/DbYYwqICWQ-",
+          "print": "prints/DbYYwqICWQ-.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@angelanunesfelicio",
+          "url": "https://www.instagram.com/p/DbWKmqxoGsg",
+          "print": "prints/DbWKmqxoGsg.jpg",
+          "rede": "Instagram"
+        }
+      ]
     },
     {
       "id": "cultura-curadoria-trilha-musical",
@@ -472,6 +644,42 @@
           "url": "https://www.instagram.com/p/Dac1tX-xkHS/",
           "print": "prints/Dac1tX-xkHS.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@newdivisionshop",
+          "url": "https://www.instagram.com/p/CxyEoRjgKLo",
+          "print": "prints/CxyEoRjgKLo.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@dengo.club",
+          "url": "https://www.instagram.com/p/Dad19sJxrXX",
+          "print": "prints/Dad19sJxrXX.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@dengo.club",
+          "url": "https://www.instagram.com/p/DTJM75Zjq-m",
+          "print": "prints/DTJM75Zjq-m.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@newdivisionshop",
+          "url": "https://www.instagram.com/p/DbT3dsjDw6L",
+          "print": "prints/DbT3dsjDw6L.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@newdivisionshop",
+          "url": "https://www.instagram.com/p/DbQnXtGEayo",
+          "print": "prints/DbQnXtGEayo.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@newdivisionshop",
+          "url": "https://www.instagram.com/p/DbTWU76kZRk",
+          "print": "prints/DbTWU76kZRk.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -529,6 +737,12 @@
           "url": "https://www.instagram.com/p/DbHOGvLGvvX/",
           "print": "prints/DbHOGvLGvvX.jpg",
           "rede": "Instagram"
+        },
+        {
+          "handle": "@carnan",
+          "url": "https://www.instagram.com/p/DaDacBSx8K6",
+          "print": "prints/DaDacBSx8K6.jpg",
+          "rede": "Instagram"
         }
       ]
     },
@@ -568,6 +782,18 @@
           "handle": "@bolovo",
           "url": "https://www.instagram.com/p/DaseSnKxA39/",
           "print": "prints/DaseSnKxA39.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@cacaudaterradillo",
+          "url": "https://www.instagram.com/p/DZyKHsdkdD5",
+          "print": "prints/DZyKHsdkdD5.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@sometimes.online",
+          "url": "https://www.instagram.com/p/DbWq53Ahxxw",
+          "print": "prints/DbWq53Ahxxw.jpg",
           "rede": "Instagram"
         }
       ]
@@ -631,6 +857,24 @@
           "handle": "@usebemtevi",
           "url": "https://www.instagram.com/p/Da6N39mpkLj/",
           "print": "prints/Da6N39mpkLj.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@ltdathayde",
+          "url": "https://www.instagram.com/p/Da27aKFkYLJ",
+          "print": "prints/Da27aKFkYLJ.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@stripmecamisetas",
+          "url": "https://www.instagram.com/p/DCWuZK_uOnR",
+          "print": "prints/DCWuZK_uOnR.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@carolmatsubara",
+          "url": "https://www.instagram.com/p/DaliGsUhX_N",
+          "print": "prints/DaliGsUhX_N.jpg",
           "rede": "Instagram"
         }
       ]
