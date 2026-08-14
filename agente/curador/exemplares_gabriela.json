@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "descricao": "Exemplares-ouro aprovados pela fundadora (Gabriela). Ancora de calibracao do curador: taste + card. NAO sao referencias do painel — sinal de treino.",
+    "origem": "ensaio de marca Moxie (pasta APROVADAS, Drive da Gabriela)",
+    "gerado_em": "2026-08-14",
+    "total": 17,
+    "taste_principles": [
+      "Ambiente e co-protagonista: a peca vive num mundo real e reconhecivel (loja de disco, feira, mercado de flores, boteco, sala retro, cafe, calcada SP, praia). Nunca fundo de estudio branco.",
+      "Luz analogica quente + grao de filme: dourada, com sombra desenhada; textura de foto, nao render limpo.",
+      "Humor legivel na peca: referencia de musica/cinema/comportamento na estampa (PAWS/Jaws, Aladdin Sane, Rock'n'Grow, Iced Coffee, 'to die for'), lida em 1 segundo.",
+      "Objetos contam a historia: vinil, cafe, gato, plantas, engradado de cerveja, coco — props que ancoram o mundo.",
+      "Corpo real, gesto casual: modelos em acao ou de costas, sem pose de catalogo; diversidade de corpos e tons.",
+      "Paleta retro-terrosa: mostarda, tijolo, abacate, marrom, cru — mesmo na praia (bone bordo, canga terrosa)."
+    ]
+  },
+  "exemplares": [
+    {
+      "arquivo": "exemplares/IMG_7064.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Loja de disco, tee MOXIE, segurando o Aladdin Sane (Bowie) na frente do rosto",
+      "por_que_funciona": "Mundo cultural (vinil) + luz quente; a marca dialoga com repertorio musical sem explicar."
+    },
+    {
+      "arquivo": "exemplares/IMG_8624.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Poltrona floral retro, abajur quente, planta; tee 'This represents Brazil more than soccer and samba'",
+      "por_que_funciona": "Sala retro-70 e o cenario Moxie por excelencia; humor brasileiro nao-obvio na peca."
+    },
+    {
+      "arquivo": "exemplares/IMG_8007.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Calcada portuguesa/praca, de costas, tee 'Iced Coffee', tote, cafe gelado na mao",
+      "por_que_funciona": "Rua SP + cultura de cafe; o mundo do publico (ZO-SP) na imagem."
+    },
+    {
+      "arquivo": "exemplares/IMG_8036.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Feira/mercado, tomando cafe, tote Moxie preta/crua escolhendo laranjas",
+      "por_que_funciona": "Feira e cena urbana afetiva; produto integrado ao cotidiano."
+    },
+    {
+      "arquivo": "exemplares/IMG_8438.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Curiosidade"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Casa com vinis no chao e gato real; tee 'PAWS' (parodia de Jaws com gato)",
+      "por_que_funciona": "Cenario domestico + vinil + gato; parodia de cinema legivel. Muito do publico."
+    },
+    {
+      "arquivo": "exemplares/IMG_8809.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Mercado de flores sob viaduto (SP), de costas, tee com planta + 'to die (for)'",
+      "por_que_funciona": "Cenario SP forte (mercado de flor) + pun ('plants to die for'); calca xadrez retro."
+    },
+    {
+      "arquivo": "exemplares/IMG_9018.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Em casa, regando planta na janela, luz e sombra desenhadas; tee 'to die' plantas",
+      "por_que_funciona": "Talvez a imagem mais forte do lote: luz, gesto real, textura. Puro taste Moxie."
+    },
+    {
+      "arquivo": "exemplares/IMG_9079.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Praia, maio listrado retro, bone bordo 'desconforto termico'",
+      "por_que_funciona": "Praia COM camada Moxie (humor no bone + retro). FLAG barra de mundo — ver insight.",
+      "flag": "praia"
+    },
+    {
+      "arquivo": "exemplares/IMG_7075.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "historias-manifesto-historia-estampa",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Identificacao",
+        "Curiosidade"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "DJ de costas nas pickups, back-print 'Sundays are for vinyls'",
+      "por_que_funciona": "Estampa nas costas conta um comportamento (domingo de vinil); acao real, nao pose."
+    },
+    {
+      "arquivo": "exemplares/IMG_8037.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "historias-manifesto-historia-estampa",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Identificacao",
+        "Curiosidade"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Tee 'Iced Coffee (because punching people is frowned upon)' erguida numa cafeteria",
+      "por_que_funciona": "Piada legivel na estampa + contexto (cafe) que reforca a referencia."
+    },
+    {
+      "arquivo": "exemplares/IMG_8315.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "historias-manifesto-historia-estampa",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Identificacao",
+        "Senso de apreendimento"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Flat-lay de tee 'Rock 'n' Grow' (Ozzy/Freddie/Bowie halterofilistas cartoon) + halteres/headphone",
+      "por_que_funciona": "Trocadilho rock+academia; referencia musical nao-obvia em ilustracao autoral."
+    },
+    {
+      "arquivo": "exemplares/IMG_8010.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "cultura-curadoria-moodboard-visual",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Desejo consciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Celular fotografando bone 'cafecito' sobre mesa de brunch (cafe, ovos, frutas)",
+      "por_que_funciona": "Flat-lay de cafe/brunch com o produto no centro; moodboard de estilo de vida."
+    },
+    {
+      "arquivo": "exemplares/IMG_8792.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "cultura-curadoria-moodboard-visual",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Curiosidade"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Still-life: tote Moxie preto/cru na cadeira dobravel branca, loft de concreto, vinil e planta",
+      "por_que_funciona": "Natureza-morta com direcao de arte; luz dura de janela, textura, respiro."
+    },
+    {
+      "arquivo": "exemplares/IMG_7998.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "cultura-curadoria-moodboard-visual",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Desejo consciente",
+        "Curiosidade"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Flat-lay de praia: coco verde, havaianas, oculos, bone navy 'puedo si, pero no quiero' na canga vermelha",
+      "por_que_funciona": "Moodboard de verao com humor no bone; paleta terrosa. FLAG praia.",
+      "flag": "praia"
+    },
+    {
+      "arquivo": "exemplares/IMG_8039.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo consciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Tote mostarda com estampa de headphone (moxie), em cafe",
+      "por_que_funciona": "Produto em uso, mas a estampa (headphone) e o hook; luz de janela quente."
+    },
+    {
+      "arquivo": "exemplares/IMG_8441.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo consciente",
+        "Curiosidade"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Arara com 6 tees 'Plant Parenthood' na gama de cores",
+      "por_que_funciona": "Mostra a gama/gramatura do produto de forma limpa; unico shot de catalogo bem resolvido."
+    },
+    {
+      "arquivo": "exemplares/IMG_9085.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo consciente",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Andando na orla/deck, tote preta 'moxie moxie moxie' (gradiente azul), parede teal",
+      "por_que_funciona": "Produto (tote) como heroi, tipografia repetida forte. FLAG praia-adjacente.",
+      "flag": "praia"
+    }
+  ]
+}

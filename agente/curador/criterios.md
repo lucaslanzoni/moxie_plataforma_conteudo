@@ -36,3 +36,15 @@ Antes de alocar, pergunte: a referência tem **camada** (repertório, ironia, re
 
 ## Quando nada encaixa
 Diga que não encaixa e proponha um card novo (nome do formato genérico + mecanismo). Não force.
+
+## Taste da Gabriela (âncora da fundadora)
+Norte de qualidade + estética destilado do ensaio da Moxie aprovado pela fundadora. Exemplares visuais rotulados em `agente/curador/exemplares_gabriela.json` (imagens em `exemplares/`) — consulte-os como few-shot de calibração, priorizando junto das correções do Lucas.
+
+1. **Ambiente é co-protagonista** — a peça vive num mundo real e reconhecível (loja de disco, feira, mercado de flores, boteco, sala retrô, café, calçada SP, praia). Nunca fundo de estúdio branco.
+2. **Luz analógica quente + grão de filme** — dourada, com sombra desenhada; textura de foto, não render limpo.
+3. **Humor legível na peça** — referência de música/cinema/comportamento na estampa (PAWS/Jaws, Aladdin Sane, Rock'n'Grow, Iced Coffee, "to die for"), lida em 1 segundo.
+4. **Objetos contam a história** — vinil, café, gato, plantas, engradado de cerveja, coco: props que ancoram o mundo.
+5. **Corpo real, gesto casual** — modelos em ação ou de costas, sem pose de catálogo; diversidade de corpos e tons.
+6. **Paleta retrô-terrosa** — mostarda, tijolo, abacate, marrom, cru — mesmo na praia (boné bordô, canga terrosa).
+
+Uso: numa fronteira, compare o post com estes exemplares — "a Gabriela aprovaria este mundo/execução?". Serve de bar de taste **e** de referência de qual card cada tipo de imagem representa.
