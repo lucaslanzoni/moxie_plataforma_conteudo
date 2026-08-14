@@ -1,7 +1,7 @@
 {
   "meta": {
     "marca": "Moxie",
-    "atualizado_em": "2026-07-29",
+    "atualizado_em": "2026-08-14",
     "versao_schema": 1
   },
   "taxonomia": {
@@ -382,6 +382,18 @@
           "handle": "@usebemtevi",
           "url": "https://www.instagram.com/p/DasdhhKhZOO",
           "print": "prints/DasdhhKhZOO.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@usebemtevi",
+          "url": "https://www.instagram.com/p/Dbtfl62iYk0",
+          "print": "prints/Dbtfl62iYk0.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@usebemtevi",
+          "url": "https://www.instagram.com/p/DbnmBmakchh",
+          "print": "prints/DbnmBmakchh.jpg",
           "rede": "Instagram"
         }
       ]
@@ -875,6 +887,12 @@
           "handle": "@carolmatsubara",
           "url": "https://www.instagram.com/p/DaliGsUhX_N",
           "print": "prints/DaliGsUhX_N.jpg",
+          "rede": "Instagram"
+        },
+        {
+          "handle": "@noiaugusto",
+          "url": "https://www.instagram.com/p/DbqZcmrhA__",
+          "print": "prints/DbqZcmrhA__.jpg",
           "rede": "Instagram"
         }
       ]
