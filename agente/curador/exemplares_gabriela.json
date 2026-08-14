@@ -3,7 +3,7 @@
     "descricao": "Exemplares-ouro aprovados pela fundadora (Gabriela). Ancora de calibracao do curador: taste + card. NAO sao referencias do painel — sinal de treino.",
     "origem": "ensaio de marca Moxie (pasta APROVADAS, Drive da Gabriela)",
     "gerado_em": "2026-08-14",
-    "total": 17,
+    "total": 23,
     "taste_principles": [
       "Ambiente e co-protagonista: a peca vive num mundo real e reconhecivel (loja de disco, feira, mercado de flores, boteco, sala retro, cafe, calcada SP, praia). Nunca fundo de estudio branco.",
       "Luz analogica quente + grao de filme: dourada, com sombra desenhada; textura de foto, nao render limpo.",
@@ -11,7 +11,8 @@
       "Objetos contam a historia: vinil, cafe, gato, plantas, engradado de cerveja, coco — props que ancoram o mundo.",
       "Corpo real, gesto casual: modelos em acao ou de costas, sem pose de catalogo; diversidade de corpos e tons.",
       "Paleta retro-terrosa: mostarda, tijolo, abacate, marrom, cru — mesmo na praia (bone bordo, canga terrosa)."
-    ]
+    ],
+    "lotes": "17 (lote 1, jul) + 6 (lote 2, ago)"
   },
   "exemplares": [
     {
@@ -128,6 +129,76 @@
       "flag": "praia"
     },
     {
+      "arquivo": "exemplares/IMG_9372.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (lote 2, ago/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "De costas dancando, tee 'Sundays are for vinyls'; sala de vinil em casa com bola de espelho, velas, plantas",
+      "por_que_funciona": "CENA NOVA: sala de vinil domestica com bola de espelho. Otimo taste retro-aconchegante."
+    },
+    {
+      "arquivo": "exemplares/IMG_9411.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (lote 2, ago/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "De costas coando cafe numa cozinha verde retro (poster Matisse, luz de janela), tee 'Iced Coffee'",
+      "por_que_funciona": "CENA NOVA: cozinha retro com luz de cinema. Uma das mais fortes do lote."
+    },
+    {
+      "arquivo": "exemplares/IMG_9477.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (lote 2, ago/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Dois amigos num boteco (placa 'Cervejas', cigarro, chopp), back-print 'Do not feed grass to the pandas'",
+      "por_que_funciona": "CENA NOVA: boteco SP (nao tinhamos). Design novo (panda). Mundo Moxie cheio."
+    },
+    {
+      "arquivo": "exemplares/IMG_9390.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (lote 2, ago/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Casal na frente de floricultura SP; um de costas 'to die', outra de frente 'Plant Parenthood'",
+      "por_que_funciona": "Fachada de floricultura + casal — cena diferente do mercado de flores (8809). Vale pela variedade."
+    },
+    {
+      "arquivo": "exemplares/IMG_9522.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (lote 2, ago/2026)",
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Identificacao",
+        "Desejo inconsciente"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Andando na rua/parque em golden hour, tee 'Rock 'n' Grow', baggy + Converse, lens flare",
+      "por_que_funciona": "Golden hour worn — luz e taste novos (Rock'n'Grow so tinha flat-lay 8315)."
+    },
+    {
       "arquivo": "exemplares/IMG_7075.jpg",
       "origem": "ensaio Moxie — aprovado por Gabriela (jul/2026)",
       "card": "historias-manifesto-historia-estampa",
@@ -168,6 +239,20 @@
       "formato": "Foto única",
       "o_que_e": "Flat-lay de tee 'Rock 'n' Grow' (Ozzy/Freddie/Bowie halterofilistas cartoon) + halteres/headphone",
       "por_que_funciona": "Trocadilho rock+academia; referencia musical nao-obvia em ilustracao autoral."
+    },
+    {
+      "arquivo": "exemplares/IMG_9462.jpg",
+      "origem": "ensaio Moxie — aprovado por Gabriela (lote 2, ago/2026)",
+      "card": "historias-manifesto-historia-estampa",
+      "funil": "Meio",
+      "objetivo": "Relacao",
+      "sensacao": [
+        "Curiosidade",
+        "Identificacao"
+      ],
+      "formato": "Foto única",
+      "o_que_e": "Erguendo a tee 'Do not feed grass to the pandas' na frente do rosto (bone azul)",
+      "por_que_funciona": "DESIGN NOVO legivel (panda/erva). Serve de exemplar de historia-estampa para o design novo."
     },
     {
       "arquivo": "exemplares/IMG_8010.jpg",
