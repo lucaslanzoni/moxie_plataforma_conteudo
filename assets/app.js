@@ -1,6 +1,7 @@
 // assets/app.js — orquestra fetch, validação, render e filtros no DOM.
 import { validarDados } from './validar.js';
 import { filtrarCards, contarResultado, agruparPorCategoria } from './filtros.js';
+import { shortCodeOf, getEstado, alternar, resumo, exportarPayload } from './feedback.js';
 
 const DIMS = ['categoria', 'objetivo', 'funil', 'formato', 'sensacao', 'rede'];
 const el = (id) => document.getElementById(id);
@@ -50,6 +51,43 @@ function pilula(texto, classe = '') {
   s.className = 'pilula ' + classe; s.textContent = texto; return s;
 }
 
+function botaoFb(wrap, sc, ref, estado, cls, glifo, rotulo) {
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'fb-btn fb-' + cls;
+  b.textContent = glifo; b.setAttribute('aria-label', rotulo); b.title = rotulo;
+  b.addEventListener('click', (e) => {
+    e.preventDefault(); e.stopPropagation();
+    const novo = alternar(sc, { handle: ref.handle, url: ref.url }, estado);
+    wrap.classList.remove('fb-aprovado', 'fb-rejeitado');
+    if (novo) wrap.classList.add('fb-' + novo);
+    atualizarBotaoExport();
+    atualizarBotaoArquivo();
+  });
+  return b;
+}
+
+function montarRef(ref) {
+  const wrap = document.createElement('div');
+  wrap.className = 'ref-wrap';
+  const sc = shortCodeOf(ref.url);
+  wrap.dataset.sc = sc;
+  const est0 = getEstado(sc);
+  if (est0) wrap.classList.add('fb-' + est0);
+
+  const a = document.createElement('a');
+  a.className = 'ref'; a.href = ref.url; a.target = '_blank'; a.rel = 'noopener';
+  if (ref.print) { const img = document.createElement('img'); img.src = ref.print; img.alt = ref.handle || 'referência'; img.loading = 'lazy'; a.appendChild(img); }
+  const ver = document.createElement('span'); ver.className = 'ver'; ver.textContent = 'ver ↗'; a.appendChild(ver);
+  if (ref.handle) { const h = document.createElement('span'); h.className = 'handle'; h.textContent = ref.handle; a.appendChild(h); }
+  wrap.appendChild(a);
+
+  const fb = document.createElement('div'); fb.className = 'ref-fb';
+  fb.appendChild(botaoFb(wrap, sc, ref, 'aprovado', 'aprovar', '\u{1F44D}', 'Aprovar referência'));
+  fb.appendChild(botaoFb(wrap, sc, ref, 'rejeitado', 'rejeitar', '✕', 'Rejeitar referência'));
+  wrap.appendChild(fb);
+  return wrap;
+}
+
 function montarCard(card) {
   const art = document.createElement('article');
   art.className = 'card';
@@ -81,14 +119,7 @@ function montarCard(card) {
     vaz.textContent = 'Referências em breve.'; art.appendChild(vaz);
   } else {
     const refs = document.createElement('div'); refs.className = 'refs';
-    for (const ref of card.referencias) {
-      const a = document.createElement('a');
-      a.className = 'ref'; a.href = ref.url; a.target = '_blank'; a.rel = 'noopener';
-      if (ref.print) { const img = document.createElement('img'); img.src = ref.print; img.alt = ref.handle || 'referência'; img.loading = 'lazy'; a.appendChild(img); }
-      const ver = document.createElement('span'); ver.className = 'ver'; ver.textContent = 'ver ↗'; a.appendChild(ver);
-      if (ref.handle) { const h = document.createElement('span'); h.className = 'handle'; h.textContent = ref.handle; a.appendChild(h); }
-      refs.appendChild(a);
-    }
+    for (const ref of card.referencias) refs.appendChild(montarRef(ref));
     art.appendChild(refs);
   }
   return art;
@@ -124,6 +155,56 @@ function limpar() {
   render();
 }
 
+function atualizarBotaoExport() {
+  const btn = el('exportar-fb'); if (!btn) return;
+  const { total } = resumo();
+  btn.textContent = total ? `Enviar avaliações (${total})` : 'Enviar avaliações';
+  btn.classList.toggle('tem', total > 0);
+}
+
+function atualizarBotaoArquivo() {
+  const btn = el('toggle-arquivo'); if (!btn) return;
+  const { rejeitadas } = resumo();
+  btn.textContent = rejeitadas ? `Arquivadas (${rejeitadas})` : 'Arquivadas';
+}
+
+function abrirExport() {
+  const dados = exportarPayload();
+  const json = JSON.stringify(dados, null, 2);
+  const ov = document.createElement('div'); ov.className = 'export-ov';
+  const box = document.createElement('div'); box.className = 'export-box';
+  const h = document.createElement('h3'); h.textContent = 'Suas avaliações';
+  const sub = document.createElement('p'); sub.className = 'export-sub';
+  sub.textContent = dados.resumo.total
+    ? `${dados.resumo.aprovadas} aprovadas · ${dados.resumo.rejeitadas} rejeitadas — copia ou baixa e manda pra Moxie.`
+    : 'Você ainda não avaliou nenhuma referência. Passa o cursor num print e usa o 👍 ou o ✕.';
+  const ta = document.createElement('textarea'); ta.className = 'export-ta'; ta.readOnly = true; ta.value = json;
+  const acoes = document.createElement('div'); acoes.className = 'export-acoes';
+  const bCopiar = document.createElement('button'); bCopiar.type = 'button'; bCopiar.className = 'export-b primario'; bCopiar.textContent = 'Copiar';
+  const bBaixar = document.createElement('button'); bBaixar.type = 'button'; bBaixar.className = 'export-b'; bBaixar.textContent = 'Baixar .json';
+  const bFechar = document.createElement('button'); bFechar.type = 'button'; bFechar.className = 'export-b'; bFechar.textContent = 'Fechar';
+  bCopiar.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(json); }
+    catch { ta.focus(); ta.select(); try { document.execCommand('copy'); } catch { /* nada */ } }
+    bCopiar.textContent = 'Copiado!'; setTimeout(() => { bCopiar.textContent = 'Copiar'; }, 1500);
+  });
+  bBaixar.addEventListener('click', () => {
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url;
+    a.download = `moxie-avaliacoes-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  });
+  const fechar = () => ov.remove();
+  bFechar.addEventListener('click', fechar);
+  ov.addEventListener('click', (e) => { if (e.target === ov) fechar(); });
+  acoes.append(bCopiar, bBaixar, bFechar);
+  box.append(h, sub, ta, acoes);
+  ov.appendChild(box);
+  document.body.appendChild(ov);
+  if (dados.resumo.total) { ta.focus(); ta.select(); }
+}
+
 export async function iniciar() {
   try {
     const resp = await fetch('dados.json');
@@ -148,6 +229,14 @@ export async function iniciar() {
     const aberto = el('filtros').classList.toggle('aberto');
     toggle.setAttribute('aria-expanded', String(aberto));
   });
+  el('exportar-fb').addEventListener('click', abrirExport);
+  atualizarBotaoExport();
+  const btnArq = el('toggle-arquivo');
+  btnArq.addEventListener('click', () => {
+    const ativo = document.body.classList.toggle('ver-arquivo');
+    btnArq.setAttribute('aria-pressed', String(ativo));
+  });
+  atualizarBotaoArquivo();
   render();
 }
 

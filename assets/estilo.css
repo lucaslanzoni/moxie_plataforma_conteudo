@@ -121,8 +121,55 @@ body.autenticado .login { display: none; }
   .carlos { height: 72px; }
 }
 
+/* ===== avaliação da Gabriela (feedback por referência) ===== */
+.ref-wrap { position: relative; }
+.ref-fb { position: absolute; top: .28rem; left: .28rem; right: .28rem; display: flex; justify-content: space-between; gap: .3rem; z-index: 3; opacity: 0; pointer-events: none; transition: opacity var(--transicao); }
+.ref-wrap:hover .ref-fb, .ref-wrap.fb-aprovado .ref-fb, .ref-wrap.fb-rejeitado .ref-fb { opacity: 1; pointer-events: auto; }
+.fb-btn { width: 26px; height: 26px; border-radius: 50%; border: none; cursor: pointer; font-size: .78rem; line-height: 1; display: grid; place-items: center; color: #fff; background: rgba(30, 48, 60, .74); box-shadow: 0 2px 6px rgba(0, 0, 0, .32); transition: transform var(--transicao), background var(--transicao); }
+.fb-btn:hover { transform: scale(1.14); }
+.fb-btn:focus-visible { outline: 2px solid var(--ambar); outline-offset: 2px; }
+.ref-wrap.fb-aprovado .fb-aprovar { background: #2e9e4f; }
+.ref-wrap.fb-rejeitado .fb-rejeitar { background: var(--vermelho); }
+.ref-wrap.fb-rejeitado .ref img { opacity: .32; filter: grayscale(.75); }
+.ref-wrap.fb-aprovado .ref { box-shadow: 0 0 0 2px #2e9e4f, 0 1px 3px rgba(30, 48, 60, .12); }
+.ref-wrap.fb-aprovado::after, .ref-wrap.fb-rejeitado::after { position: absolute; bottom: .3rem; left: .3rem; font-size: .55rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; padding: .12rem .42rem; border-radius: var(--r-pill); color: #fff; z-index: 3; pointer-events: none; }
+.ref-wrap.fb-aprovado::after { content: "aprovado"; background: #2e9e4f; }
+.ref-wrap.fb-rejeitado::after { content: "rejeitado"; background: var(--vermelho); }
+
+/* botão de export — destaque na barra */
+.exportar-fb { align-self: end; background: var(--ambar); border: 1px solid var(--ambar); color: var(--petroleo); font: inherit; font-weight: 800; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; padding: .5rem 1rem; cursor: pointer; border-radius: var(--r-sm); box-shadow: var(--sombra-1); transition: transform var(--transicao), box-shadow var(--transicao), background var(--transicao); }
+.exportar-fb:hover { transform: translateY(-1px); box-shadow: var(--sombra-2); background: #f0b262; }
+.exportar-fb.tem { box-shadow: 0 0 0 2px rgba(46, 158, 79, .45), var(--sombra-1); }
+
+/* overlay de export */
+.export-ov { position: fixed; inset: 0; z-index: 200; background: rgba(30, 48, 60, .55); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 1.2rem; }
+.export-box { width: min(520px, 100%); background: var(--branco-cartao); border-radius: var(--r-lg); box-shadow: var(--sombra-2); padding: 1.4rem; }
+.export-box h3 { font-family: var(--fonte-titulo); font-weight: 800; font-size: 1.3rem; text-transform: uppercase; margin: 0 0 .3rem; }
+.export-sub { font-size: .88rem; margin: 0 0 .8rem; opacity: .85; }
+.export-ta { width: 100%; height: 170px; font-family: ui-monospace, Menlo, monospace; font-size: .72rem; padding: .7rem; border: 1px solid var(--borda-forte); border-radius: var(--r-md); background: var(--creme); color: var(--petroleo); resize: vertical; }
+.export-acoes { display: flex; gap: .6rem; margin-top: .9rem; flex-wrap: wrap; }
+.export-b { font: inherit; font-weight: 700; font-size: .82rem; padding: .55rem 1rem; border: 1px solid var(--borda-forte); background: var(--branco-cartao); color: var(--petroleo); border-radius: var(--r-sm); cursor: pointer; transition: background var(--transicao); }
+.export-b:hover { background: var(--creme); }
+.export-b.primario { background: var(--petroleo); color: var(--creme); border-color: var(--petroleo); }
+.export-b.primario:hover { background: #16242e; }
+
+/* arquivo — rejeitadas saem da visão inicial, acessíveis pelo botão "Arquivadas" */
+.ref-wrap.fb-rejeitado { display: none; }
+body.ver-arquivo .ref-wrap.fb-rejeitado { display: block; }
+body:not(.ver-arquivo) .card:has(.ref-wrap):not(:has(.ref-wrap:not(.fb-rejeitado))) { display: none; }
+.toggle-arquivo { align-self: end; background: none; border: 1px solid var(--borda-forte); color: var(--petroleo); font: inherit; font-size: .8rem; padding: .5rem .9rem; cursor: pointer; border-radius: var(--r-sm); transition: background var(--transicao), color var(--transicao), border-color var(--transicao); }
+.toggle-arquivo:hover { border-color: var(--petroleo); }
+.toggle-arquivo[aria-pressed="true"] { background: var(--petroleo); color: var(--creme); border-color: var(--petroleo); }
+
+/* mobile: sem hover, ícones sempre visíveis + export full-width */
+@media (max-width: 720px) {
+  .ref-fb { opacity: 1; pointer-events: auto; }
+  .exportar-fb, .toggle-arquivo { width: 100%; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .card, .ref img, .filtros select, .busca, .limpar, .toggle-refs { transition: none; }
+  .card, .ref img, .filtros select, .busca, .limpar, .toggle-refs, .fb-btn, .exportar-fb { transition: none; }
   .card:hover { transform: none; }
   .ref:hover img { transform: none; }
+  .fb-btn:hover, .exportar-fb:hover { transform: none; }
 }
