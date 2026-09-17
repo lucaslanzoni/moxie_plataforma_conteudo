@@ -41,6 +41,10 @@ export function alternar(sc, meta, estado) {
   return o[sc]?.estado || null;
 }
 
+export function limparTudo() {
+  salvar({});
+}
+
 export function resumo() {
   const o = carregar();
   let aprovadas = 0, rejeitadas = 0;

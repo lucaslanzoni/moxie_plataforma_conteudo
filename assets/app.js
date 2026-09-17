@@ -1,7 +1,7 @@
 // assets/app.js — orquestra fetch, validação, render e filtros no DOM.
 import { validarDados } from './validar.js';
 import { filtrarCards, contarResultado, agruparPorCategoria } from './filtros.js';
-import { shortCodeOf, getEstado, alternar, resumo, exportarPayload } from './feedback.js';
+import { shortCodeOf, getEstado, alternar, resumo, exportarPayload, limparTudo } from './feedback.js';
 
 const DIMS = ['categoria', 'objetivo', 'funil', 'formato', 'sensacao', 'rede'];
 const el = (id) => document.getElementById(id);
@@ -137,6 +137,8 @@ function render() {
   let filtrados = filtrarCards(DADOS.cards, filtros);
   const soComRef = el('toggle-refs').getAttribute('aria-pressed') === 'true';
   if (soComRef) filtrados = filtrados.filter((c) => (c.referencias || []).length > 0);
+  const soAprovados = el('toggle-aprovados').getAttribute('aria-pressed') === 'true';
+  if (soAprovados) filtrados = filtrados.filter((c) => (c.referencias || []).some((r) => r.aprovado_gabriela));
   const { filtrados: n, total } = contarResultado(filtrados, DADOS.cards.length);
   el('contador').innerHTML = `<strong>${n}</strong> de ${total} ideias`;
   atualizarEstadoFiltros(soComRef);
@@ -175,6 +177,12 @@ function atualizarBotaoArquivo() {
   btn.textContent = rejeitadas ? `Arquivadas (${rejeitadas})` : 'Arquivadas';
 }
 
+function atualizarBotaoAprovados() {
+  const btn = el('toggle-aprovados'); if (!btn) return;
+  const n = DADOS.cards.filter((c) => (c.referencias || []).some((r) => r.aprovado_gabriela)).length;
+  btn.textContent = n ? `Aprovados (${n})` : 'Aprovados';
+}
+
 function abrirExport() {
   const dados = exportarPayload();
   const json = JSON.stringify(dados, null, 2);
@@ -189,6 +197,7 @@ function abrirExport() {
   const acoes = document.createElement('div'); acoes.className = 'export-acoes';
   const bCopiar = document.createElement('button'); bCopiar.type = 'button'; bCopiar.className = 'export-b primario'; bCopiar.textContent = 'Copiar';
   const bBaixar = document.createElement('button'); bBaixar.type = 'button'; bBaixar.className = 'export-b'; bBaixar.textContent = 'Baixar .json';
+  const bLimpar = document.createElement('button'); bLimpar.type = 'button'; bLimpar.className = 'export-b perigo'; bLimpar.textContent = 'Limpar avaliações';
   const bFechar = document.createElement('button'); bFechar.type = 'button'; bFechar.className = 'export-b'; bFechar.textContent = 'Fechar';
   bCopiar.addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(json); }
@@ -204,8 +213,17 @@ function abrirExport() {
   });
   const fechar = () => ov.remove();
   bFechar.addEventListener('click', fechar);
+  bLimpar.addEventListener('click', () => {
+    if (!confirm('Limpar todas as suas avaliações locais (aprovado/rejeitado)? As referências já processadas em rodadas anteriores não são afetadas.')) return;
+    limparTudo();
+    atualizarBotaoExport();
+    atualizarBotaoArquivo();
+    render();
+    fechar();
+  });
   ov.addEventListener('click', (e) => { if (e.target === ov) fechar(); });
-  acoes.append(bCopiar, bBaixar, bFechar);
+  if (dados.resumo.total) acoes.append(bCopiar, bBaixar, bLimpar, bFechar);
+  else acoes.append(bFechar);
   box.append(h, sub, ta, acoes);
   ov.appendChild(box);
   document.body.appendChild(ov);
@@ -231,6 +249,12 @@ export async function iniciar() {
     btn.setAttribute('aria-pressed', btn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
     render();
   });
+  el('toggle-aprovados').addEventListener('click', () => {
+    const btn = el('toggle-aprovados');
+    btn.setAttribute('aria-pressed', btn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+    render();
+  });
+  atualizarBotaoAprovados();
   const toggle = el('toggle-filtros');
   toggle.addEventListener('click', () => {
     const aberto = el('filtros').classList.toggle('aberto');

@@ -56,6 +56,7 @@ function sair() {
 }
 
 async function boot() {
+  el('sair')?.addEventListener('click', sair);
   const salvo = localStorage.getItem(CHAVE);
   if (salvo) {
     const ok = await temAcesso(salvo);
@@ -64,7 +65,6 @@ async function boot() {
   }
   const form = el('login-form');
   form.addEventListener('submit', (e) => { e.preventDefault(); tentar(el('login-email').value); });
-  el('sair')?.addEventListener('click', sair);
   el('login-email').focus();
 }
 

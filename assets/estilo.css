@@ -155,6 +155,8 @@ body.autenticado .login { display: none; }
 .export-b:hover { background: var(--creme); }
 .export-b.primario { background: var(--petroleo); color: var(--creme); border-color: var(--petroleo); }
 .export-b.primario:hover { background: #16242e; }
+.export-b.perigo { color: var(--vermelho); border-color: var(--vermelho); margin-left: auto; }
+.export-b.perigo:hover { background: var(--vermelho); color: var(--creme); }
 
 /* arquivo — rejeitadas saem da visão inicial, acessíveis pelo botão "Arquivadas" */
 .ref-wrap.fb-rejeitado { display: none; }
@@ -164,10 +166,14 @@ body:not(.ver-arquivo) .card:has(.ref-wrap):not(:has(.ref-wrap:not(.fb-rejeitado
 .toggle-arquivo:hover { border-color: var(--petroleo); }
 .toggle-arquivo[aria-pressed="true"] { background: var(--petroleo); color: var(--creme); border-color: var(--petroleo); }
 
+.toggle-aprovados { align-self: end; background: none; border: 1px solid var(--borda-forte); color: var(--petroleo); font: inherit; font-size: .8rem; padding: .5rem .9rem; cursor: pointer; border-radius: var(--r-sm); transition: background var(--transicao), color var(--transicao), border-color var(--transicao); }
+.toggle-aprovados:hover { border-color: #2e9e4f; }
+.toggle-aprovados[aria-pressed="true"] { background: #2e9e4f; color: var(--creme); border-color: #2e9e4f; }
+
 /* mobile: sem hover, ícones sempre visíveis + export full-width */
 @media (max-width: 720px) {
   .ref-fb { opacity: 1; pointer-events: auto; }
-  .exportar-fb, .toggle-arquivo { width: 100%; }
+  .exportar-fb, .toggle-arquivo, .toggle-aprovados { width: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
