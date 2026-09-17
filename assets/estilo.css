@@ -136,6 +136,9 @@ body.autenticado .login { display: none; }
 .ref-wrap.fb-aprovado::after { content: "aprovado"; background: #2e9e4f; }
 .ref-wrap.fb-rejeitado::after { content: "rejeitado"; background: var(--vermelho); }
 
+/* já aprovada em rodada anterior (dados.json) — só o anel, sem ícone nem selo */
+.ref-wrap.aprovado-fixo .ref { box-shadow: 0 0 0 2px #2e9e4f, 0 1px 3px rgba(30, 48, 60, .12); }
+
 /* botão de export — destaque na barra */
 .exportar-fb { align-self: end; background: var(--ambar); border: 1px solid var(--ambar); color: var(--petroleo); font: inherit; font-weight: 800; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; padding: .5rem 1rem; cursor: pointer; border-radius: var(--r-sm); box-shadow: var(--sombra-1); transition: transform var(--transicao), box-shadow var(--transicao), background var(--transicao); }
 .exportar-fb:hover { transform: translateY(-1px); box-shadow: var(--sombra-2); background: #f0b262; }

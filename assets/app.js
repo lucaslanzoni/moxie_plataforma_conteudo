@@ -71,10 +71,11 @@ function montarRef(ref) {
   wrap.className = 'ref-wrap';
   const sc = shortCodeOf(ref.url);
   wrap.dataset.sc = sc;
-  // estado local (localStorage) prevalece sobre o persistido — reflete o que quem está
-  // vendo já clicou nessa sessão; senão, cai no que veio gravado do dados.json (rodada anterior).
-  const est0 = getEstado(sc) || (ref.aprovado_gabriela ? 'aprovado' : null);
+  // estado local (localStorage) = avaliação em andamento, ainda não enviada: ícone + selo + anel.
+  // sem estado local mas já aprovada no dados.json = rodada já processada: só o anel, sem poluir.
+  const est0 = getEstado(sc);
   if (est0) wrap.classList.add('fb-' + est0);
+  else if (ref.aprovado_gabriela) wrap.classList.add('aprovado-fixo');
 
   const a = document.createElement('a');
   a.className = 'ref'; a.href = ref.url; a.target = '_blank'; a.rel = 'noopener';
