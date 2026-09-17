@@ -29,11 +29,11 @@ def short_code_de(url):
 
 
 def indexar_referencias(dados):
-    """shortCode -> card (objeto vivo, pra permitir remoção in-place)."""
+    """shortCode -> {"card": card, "ref": referência} (objetos vivos, pra permitir mutação/remoção in-place)."""
     indice = {}
     for card in dados["cards"]:
         for ref in card["referencias"]:
-            indice[short_code_de(ref.get("url"))] = card
+            indice[short_code_de(ref.get("url"))] = {"card": card, "ref": ref}
     return indice
 
 
@@ -68,20 +68,19 @@ def ingerir(payload, dados, log):
             "processado_em": datetime.datetime.now().isoformat(),
         }
 
-        card = indice.get(sc)
-        if card is None:
+        entrada = indice.get(sc)
+        if entrada is None:
             entrada_log["resultado"] = "nao_encontrada"
             resultado["nao_encontradas"].append(sc)
         elif estado == "rejeitado":
-            removida = next(
-                r for r in card["referencias"] if short_code_de(r.get("url")) == sc
-            )
+            card, removida = entrada["card"], entrada["ref"]
             card["referencias"] = [r for r in card["referencias"] if r is not removida]
             prints_removidos.append(removida.get("print"))
             entrada_log["resultado"] = "removida_do_dados_json"
             resultado["rejeitadas"] += 1
         elif estado == "aprovado":
-            entrada_log["resultado"] = "sinal_de_qualidade_registrado"
+            entrada["ref"]["aprovado_gabriela"] = True
+            entrada_log["resultado"] = "marcada_aprovada_no_dados_json"
             resultado["aprovadas"] += 1
         else:
             entrada_log["resultado"] = f"estado_desconhecido:{estado}"
@@ -104,7 +103,7 @@ def main():
 
     resultado, prints_removidos = ingerir(payload, dados, log)
 
-    if resultado["rejeitadas"]:
+    if resultado["rejeitadas"] or resultado["aprovadas"]:
         DADOS.write_text(json.dumps(dados, ensure_ascii=False, indent=2) + "\n")
         for nome in prints_removidos:
             if not nome:

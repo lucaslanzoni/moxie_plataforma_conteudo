@@ -57,7 +57,7 @@ class TestIngerir(unittest.TestCase):
         self.assertEqual(prints_removidos, ["prints/abc.jpg"])
         self.assertEqual(log[0]["resultado"], "removida_do_dados_json")
 
-    def test_aprovado_nao_altera_dados(self):
+    def test_aprovado_marca_referencia_sem_remover(self):
         r = ref("https://i.com/p/ABC/")
         dados = {"cards": [card("c1", [r])]}
         log = []
@@ -67,8 +67,9 @@ class TestIngerir(unittest.TestCase):
 
         self.assertEqual(resultado["aprovadas"], 1)
         self.assertEqual(dados["cards"][0]["referencias"], [r])
+        self.assertTrue(r["aprovado_gabriela"])
         self.assertEqual(prints_removidos, [])
-        self.assertEqual(log[0]["resultado"], "sinal_de_qualidade_registrado")
+        self.assertEqual(log[0]["resultado"], "marcada_aprovada_no_dados_json")
 
     def test_short_code_nao_encontrado(self):
         dados = {"cards": [card("c1", [ref("https://i.com/p/OUTRO/")])]}
