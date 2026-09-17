@@ -71,11 +71,13 @@ function montarRef(ref) {
   wrap.className = 'ref-wrap';
   const sc = shortCodeOf(ref.url);
   wrap.dataset.sc = sc;
-  // estado local (localStorage) = avaliação em andamento, ainda não enviada: ícone + selo + anel.
-  // sem estado local mas já aprovada no dados.json = rodada já processada: só o anel, sem poluir.
+  // já aprovada em rodada anterior (dados.json) = travada: só o anel, sem botão — mudar isso
+  // exige pedido direto ao Claude, não é mais avaliável pelo painel.
+  // sem isso, estado local (localStorage) = avaliação em andamento, ainda não enviada.
+  const jaFixada = !!ref.aprovado_gabriela;
   const est0 = getEstado(sc);
-  if (est0) wrap.classList.add('fb-' + est0);
-  else if (ref.aprovado_gabriela) wrap.classList.add('aprovado-fixo');
+  if (jaFixada) wrap.classList.add('aprovado-fixo');
+  else if (est0) wrap.classList.add('fb-' + est0);
 
   const a = document.createElement('a');
   a.className = 'ref'; a.href = ref.url; a.target = '_blank'; a.rel = 'noopener';
@@ -84,10 +86,12 @@ function montarRef(ref) {
   if (ref.handle) { const h = document.createElement('span'); h.className = 'handle'; h.textContent = ref.handle; a.appendChild(h); }
   wrap.appendChild(a);
 
-  const fb = document.createElement('div'); fb.className = 'ref-fb';
-  fb.appendChild(botaoFb(wrap, sc, ref, 'aprovado', 'aprovar', '\u{1F44D}', 'Aprovar referência'));
-  fb.appendChild(botaoFb(wrap, sc, ref, 'rejeitado', 'rejeitar', '✕', 'Rejeitar referência'));
-  wrap.appendChild(fb);
+  if (!jaFixada) {
+    const fb = document.createElement('div'); fb.className = 'ref-fb';
+    fb.appendChild(botaoFb(wrap, sc, ref, 'aprovado', 'aprovar', '\u{1F44D}', 'Aprovar referência'));
+    fb.appendChild(botaoFb(wrap, sc, ref, 'rejeitado', 'rejeitar', '✕', 'Rejeitar referência'));
+    wrap.appendChild(fb);
+  }
   return wrap;
 }
 
