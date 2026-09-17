@@ -1,6 +1,11 @@
 # Agente da Fase 2 — Buscador de referências (Moxie)
 
-Duas peças: o **Buscador** (este) estagia posts novos; a skill `/moxie-referencias` classifica e publica.
+Três peças: o **Buscador** (este) estagia posts novos; a skill `/moxie-referencias` classifica e publica; o **ingestor de avaliações** (`curador/ingerir_avaliacoes.py`) aplica o feedback da Gabriela sobre referências já publicadas no painel.
+
+## Ingerir avaliações da Gabriela
+    /Library/Frameworks/Python.framework/Versions/3.14/bin/python3 agente/curador/ingerir_avaliacoes.py <json-exportado-pelo-painel>
+
+Ela exporta pelo botão "Enviar avaliações" no painel e manda o `.json` pro Lucas. O script cruza cada avaliação com `dados.json` (via shortCode extraído da url), remove rejeitadas do catálogo (+ apaga o print) e registra o sinal em `agente/curador/avaliacoes_gabriela.json` — idempotente, roda de novo sem duplicar. Revisar o `git diff` antes de comitar/deployar. Testes: `python3 agente/curador/test_ingerir_avaliacoes.py -v`.
 
 ## Setup (uma vez)
 
