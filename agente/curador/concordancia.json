@@ -1,8 +1,8 @@
 {
-  "total": 208,
-  "aprovado_sem_ajuste": 78,
+  "total": 272,
+  "aprovado_sem_ajuste": 104,
   "ajustado": 0,
-  "rejeitado": 130,
+  "rejeitado": 168,
   "taxa_concordancia_card": 1.0,
   "por_card": {
     "bastidores-processo-criativo": {
@@ -10,20 +10,20 @@
       "card_aceito": 2
     },
     "bastidores-campanha-ensaio": {
-      "propostas": 5,
-      "card_aceito": 5
+      "propostas": 7,
+      "card_aceito": 7
     },
     "bastidores-producao-impressao": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 2,
+      "card_aceito": 2
     },
     "produto-craft-caimento-provador": {
       "propostas": 3,
       "card_aceito": 3
     },
     "historias-manifesto-historia-estampa": {
-      "propostas": 9,
-      "card_aceito": 9
+      "propostas": 10,
+      "card_aceito": 10
     },
     "cultura-curadoria-trilha-musical": {
       "propostas": 1,
@@ -34,40 +34,40 @@
       "card_aceito": 5
     },
     "comunidade-ugc-look-real-cliente": {
-      "propostas": 6,
-      "card_aceito": 6
+      "propostas": 9,
+      "card_aceito": 9
     },
     "mascote-personagem-apresenta": {
       "propostas": 1,
       "card_aceito": 1
     },
     "comunidade-ugc-quem-entendeu-referencia": {
-      "propostas": 1,
-      "card_aceito": 1
+      "propostas": 2,
+      "card_aceito": 2
     },
     "drop-lancamento-abertura-carrinho": {
       "propostas": 2,
       "card_aceito": 2
     },
     "visual-hook-produto-impacto": {
-      "propostas": 11,
-      "card_aceito": 11
+      "propostas": 22,
+      "card_aceito": 22
     },
     "cultura-curadoria-moodboard-visual": {
-      "propostas": 8,
-      "card_aceito": 8
-    },
-    "visual-hook-cenario": {
       "propostas": 9,
       "card_aceito": 9
+    },
+    "visual-hook-cenario": {
+      "propostas": 11,
+      "card_aceito": 11
     },
     "drop-lancamento-ultima-peca-esgotando": {
       "propostas": 1,
       "card_aceito": 1
     },
     "produto-craft-acabamento": {
-      "propostas": 4,
-      "card_aceito": 4
+      "propostas": 6,
+      "card_aceito": 6
     },
     "visual-hook-asmr-tecido": {
       "propostas": 2,
@@ -78,13 +78,13 @@
       "card_aceito": 1
     },
     "historias-manifesto-manifesto-marca": {
-      "propostas": 2,
-      "card_aceito": 2
+      "propostas": 3,
+      "card_aceito": 3
     },
     "cultura-curadoria-sp": {
-      "propostas": 4,
-      "card_aceito": 4
+      "propostas": 5,
+      "card_aceito": 5
     }
   },
-  "atualizado_em": "2026-08-14"
+  "atualizado_em": "2026-09-17"
 }

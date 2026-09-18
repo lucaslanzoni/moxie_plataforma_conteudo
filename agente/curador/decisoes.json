@@ -6789,5 +6789,1837 @@
       "motivo": "cortado por Lucas no board (proposto pelo curador, rejeitado)"
     },
     "foi_correcao": true
+  },
+  {
+    "shortCode": "DdUoJh_Cfr8",
+    "url": "https://www.instagram.com/p/DdUoJh_Cfr8",
+    "handle": "@usebemtevi",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Estampa gráfica com trocadilho: provérbio 'quem não tem cão, caça com gato' traduzido literal pro inglês, colagem de gatos.",
+      "angulo": "Trocadilho lido em 1 segundo, humor de repertório.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "comunidade-ugc-quem-entendeu-referencia",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Identificação"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdSI2WqJgdp",
+    "url": "https://www.instagram.com/p/DdSI2WqJgdp",
+    "handle": "@usebemtevi",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Creator mostra a camiseta 'fofoquinha club' e a mesma estampa aparece numa cena de novela da Globo na TV.",
+      "angulo": "Prova social real: a piada da marca virou fenômeno cultural.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "historias-manifesto-historia-estampa",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Segurança"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdXH31bJ06z",
+    "url": "https://www.instagram.com/p/DdXH31bJ06z",
+    "handle": "@usebemtevi",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Camisetas com trocadilho visual (faca+queijo, gato+cão) penduradas em arara de loja física.",
+      "angulo": "Produto com humor, ambiente real de loja.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUNryNGrAJ",
+    "url": "https://www.instagram.com/p/DdUNryNGrAJ",
+    "handle": "@onlineceramics",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Moletom preto com ursinho-palhaço 'Miracles Happen', still em grama.",
+      "angulo": "Personagem bobo/irreverente, hook visual forte.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUNQ8UGqf_",
+    "url": "https://www.instagram.com/p/DdUNQ8UGqf_",
+    "handle": "@onlineceramics",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Tote bag 'Books Not Bombs — Education Is The Vaccine To Violence', still em grama.",
+      "angulo": "Declaração de valor impressa na peça, não é só estética.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "historias-manifesto-manifesto-marca",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Identificação"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdL6qfix2Mx",
+    "url": "https://www.instagram.com/p/DdL6qfix2Mx",
+    "handle": "@aimeleondore",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Senhora andina com burro carregado de bagagem North Face x ALD, montanha ao fundo.",
+      "angulo": "Still documental real, ambiente é coprotagonista.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Foto única"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdOgGx2R-P8",
+    "url": "https://www.instagram.com/p/DdOgGx2R-P8",
+    "handle": "@aimeleondore",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still aéreo de tapetes persas empilhados na neve, logo ALD x North Face central.",
+      "angulo": "Composição de moodboard pura, prop recorrente do universo de taste.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "cultura-curadoria-moodboard-visual",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdQBdSHMZA7",
+    "url": "https://www.instagram.com/p/DdQBdSHMZA7",
+    "handle": "@stripmecamisetas",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Camiseta 'WTF is wrong with people?' dobrada sobre mesa com rascunhos de produção ao fundo.",
+      "angulo": "Frase provocativa + ambiente real de mesa de trabalho.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Foto única"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdH4GjJuSKR",
+    "url": "https://www.instagram.com/p/DdH4GjJuSKR",
+    "handle": "@thaismoreiraaa",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Creator (UGC) mostra camiseta floral gráfica em selfie de espelho, ambiente doméstico real.",
+      "angulo": "Review genuína, corpo real, gesto casual.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "comunidade-ugc-look-real-cliente",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Segurança"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DcBlz7IFkOS",
+    "url": "https://www.instagram.com/p/DcBlz7IFkOS",
+    "handle": "@vinilasserre",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Dois creators na rua, make expressiva, moletom com logo bordado, ambiente residencial real.",
+      "angulo": "UGC de rua genuíno, estilo pessoal expressivo.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "comunidade-ugc-look-real-cliente",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Identificação"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DcFLD6WxdNn",
+    "url": "https://www.instagram.com/p/DcFLD6WxdNn",
+    "handle": "@dilsinho",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still-life dramático: camiseta com mão acorrentada + calça com estampa de estrela, luz de varal escuro.",
+      "angulo": "Duas peças gráficas fortes, composição estilizada.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "Dc8zDlgi7ud",
+    "url": "https://www.instagram.com/p/Dc8zDlgi7ud",
+    "handle": "@desgosto",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Vestido com personagem colab Looney Tunes, fundo em círculos concêntricos vibrantes.",
+      "angulo": "Colab de personagem pop, still muito impactante.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Foto única"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdT_yN2qZh-",
+    "url": "https://www.instagram.com/p/DdT_yN2qZh-",
+    "handle": "@desgosto",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Vídeo ASMR de unboxing de caixas de produto colab Looney Tunes empilhadas.",
+      "angulo": "Mostra o produto saindo da caixa, formato diferente do still.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "bastidores-producao-impressao",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Transparência"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdXN-XwJ62V",
+    "url": "https://www.instagram.com/p/DdXN-XwJ62V",
+    "handle": "@stripmecamisetas",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Camiseta 'Run, Forrest, Run!' vestida, referência direta a filme.",
+      "angulo": "Humor de cultura pop lido em 1 segundo.",
+      "profundidade": "camada",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdFgEi3Glw_",
+    "url": "https://www.instagram.com/p/DdFgEi3Glw_",
+    "handle": "@bolovo",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still de moda: homem com chapéu cowboy branco + camiseta raglan de rodeio, paisagem montanhosa.",
+      "angulo": "Produção editorial forte, mas mundo western/cowboy — fronteira com a barra de mundo Moxie.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "baixa"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdRiGHRkYHZ",
+    "url": "https://www.instagram.com/p/DdRiGHRkYHZ",
+    "handle": "@bolovo",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still P&B: chapéu cowboy branco + jaqueta 'Bolovo Prod', neve ao fundo.",
+      "angulo": "Still editorial muito bem produzido, mesma fronteira de mundo western.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "baixa"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUlAoaOsbu",
+    "url": "https://www.instagram.com/p/DdUlAoaOsbu",
+    "handle": "@bolovo",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Homem de chapéu cowboy andando de skate em estrada ao entardecer.",
+      "angulo": "Ação real dinâmica, mesma fronteira de mundo western.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-cenario",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "baixa"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdSRtlEkUOR",
+    "url": "https://www.instagram.com/p/DdSRtlEkUOR",
+    "handle": "@mmtoloto",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "UGC de rua: creator com moletom liso da marca, ambiente urbano real (grafite, prédio).",
+      "angulo": "Ambiente real forte, mas a peça em si é lisa, sem gráfico.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "comunidade-ugc-look-real-cliente",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Identificação"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUsjjIorFk",
+    "url": "https://www.instagram.com/p/DdUsjjIorFk",
+    "handle": "@lu.ferrazzz",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Foto do produto composta numa moldura de câmera digital retrô Y2K.",
+      "angulo": "Formato criativo/nostálgico, mas produto em si é simples.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdWxbBxFKTz",
+    "url": "https://www.instagram.com/p/DdWxbBxFKTz",
+    "handle": "@stussy",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still de moda minimalista contra porta de garagem industrial cinza.",
+      "angulo": "Moda limpa sem humor, mas com ambiente real (não é fundo de estúdio).",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Desejo inconsciente"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdCLIP0BxW0",
+    "url": "https://www.instagram.com/p/DdCLIP0BxW0",
+    "handle": "@stussy",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Frame de vídeo: dois skatistas conversando em jardim real, um de costas com logo grande nas costas.",
+      "angulo": "Bastidor casual genuíno de cultura skate.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "bastidores-campanha-ensaio",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Transparência"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdEv236kp_C",
+    "url": "https://www.instagram.com/p/DdEv236kp_C",
+    "handle": "@stussy",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still documental dentro de uma van cheia de skates e equipamento de produção.",
+      "angulo": "Bastidor real de viagem/produção de conteúdo.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "bastidores-campanha-ensaio",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Transparência"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdY4KlKOpk7",
+    "url": "https://www.instagram.com/p/DdY4KlKOpk7",
+    "handle": "@elcabriton",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still de costas: camiseta com estampa gestual de mão, fundo vermelho vibrante.",
+      "angulo": "Cor forte, humor gestual simples.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "visual-hook-produto-impacto",
+      "funil": "Topo",
+      "objetivo": "Ser Visto",
+      "sensacao": [
+        "Curiosidade"
+      ],
+      "formato": [
+        "Foto única"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdZXolWkQCm",
+    "url": "https://www.instagram.com/p/DdZXolWkQCm",
+    "handle": "@carnan",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Still de detalhe: cós de camisa listrada por baixo de calça plissada com cinto trançado.",
+      "angulo": "Foco em textura/acabamento — card ainda com poucas refs.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "produto-craft-acabamento",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Segurança"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUoHb9icEo",
+    "url": "https://www.instagram.com/p/DdUoHb9icEo",
+    "handle": "@midas____touch",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Mão segurando boné bege com patches bordados, loja física ao fundo.",
+      "angulo": "Close de detalhe (patch), ambiente real de loja.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "produto-craft-acabamento",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Segurança"
+      ],
+      "formato": [
+        "Carrossel"
+      ],
+      "confianca": "media"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DcbVbZZh0V4",
+    "url": "https://www.instagram.com/p/DcbVbZZh0V4",
+    "handle": "@midas____touch",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "Showroom com vista pra Praia de Botafogo, sofás de couro, arara de roupas.",
+      "angulo": "Ambiente de loja bem produzido, mas sem produto em foco — fit fraco pro card.",
+      "profundidade": "fronteira",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": "cultura-curadoria-sp",
+      "funil": "Meio",
+      "objetivo": "Relação",
+      "sensacao": [
+        "Identificação"
+      ],
+      "formato": [
+        "Vídeo"
+      ],
+      "confianca": "baixa"
+    },
+    "decisao": {
+      "acao": "aprovado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": ""
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdXY3XytO8M",
+    "url": "https://www.instagram.com/p/DdXY3XytO8M",
+    "handle": "@sometimes.online",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "meme genérico de marca cansada, sem produto/mundo Moxie"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdU11xghJtX",
+    "url": "https://www.instagram.com/p/DdU11xghJtX",
+    "handle": "@sometimes.online",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "agradecimento genérico, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdT-3aSBJ5o",
+    "url": "https://www.instagram.com/p/DdT-3aSBJ5o",
+    "handle": "@sometimes.online",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "liquidação/% off — boilerplate raso"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DcbyNq8AWdd",
+    "url": "https://www.instagram.com/p/DcbyNq8AWdd",
+    "handle": "@useasteric",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "print de compra/liquidação, sem mundo Moxie"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdZG5slESH_",
+    "url": "https://www.instagram.com/p/DdZG5slESH_",
+    "handle": "@bolovo",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "fundo branco de estúdio, linha infantil"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdXIdduBXF1",
+    "url": "https://www.instagram.com/p/DdXIdduBXF1",
+    "handle": "@bolovo",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "viagem/parceria alimentícia, sem roupa"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdURPaTiW-B",
+    "url": "https://www.instagram.com/p/DdURPaTiW-B",
+    "handle": "@usebemtevi",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "arte de campanha (cookie da sorte), sem roupa"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DcRrdLeCTay",
+    "url": "https://www.instagram.com/p/DcRrdLeCTay",
+    "handle": "@usebemtevi",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "recrutamento de creators, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUNXt_GsAA",
+    "url": "https://www.instagram.com/p/DdUNXt_GsAA",
+    "handle": "@onlineceramics",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo balde still de onlineceramics"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUNfKEmpq-",
+    "url": "https://www.instagram.com/p/DdUNfKEmpq-",
+    "handle": "@onlineceramics",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo balde still de onlineceramics"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUNyGumq-z",
+    "url": "https://www.instagram.com/p/DdUNyGumq-z",
+    "handle": "@onlineceramics",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo balde still de onlineceramics"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdWPFq4kf4H",
+    "url": "https://www.instagram.com/p/DdWPFq4kf4H",
+    "handle": "@aimeleondore",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo still de tapete do balde ALD já coberto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdYz8ylkZzy",
+    "url": "https://www.instagram.com/p/DdYz8ylkZzy",
+    "handle": "@aimeleondore",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "fundo branco de estúdio puro"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdRD7Hsx8Ml",
+    "url": "https://www.instagram.com/p/DdRD7Hsx8Ml",
+    "handle": "@aimeleondore",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "paisagem com logo, sem produto/história"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdZWNVtjxgG",
+    "url": "https://www.instagram.com/p/DdZWNVtjxgG",
+    "handle": "@stussy",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "cadeiras de camping, sem peça de roupa"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUMmEkmmqJ",
+    "url": "https://www.instagram.com/p/DdUMmEkmmqJ",
+    "handle": "@stussy",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "fundo branco de estúdio"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdWg3oblp7e",
+    "url": "https://www.instagram.com/p/DdWg3oblp7e",
+    "handle": "@sound3vision",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "gato/meme, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUScvwFi79",
+    "url": "https://www.instagram.com/p/DdUScvwFi79",
+    "handle": "@sound3vision",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "meme político, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdRXNF9lgO2",
+    "url": "https://www.instagram.com/p/DdRXNF9lgO2",
+    "handle": "@sound3vision",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "gato/meme, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUISpRFjlu",
+    "url": "https://www.instagram.com/p/DdUISpRFjlu",
+    "handle": "@sound3vision",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "meme político, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdY2hPQlk6C",
+    "url": "https://www.instagram.com/p/DdY2hPQlk6C",
+    "handle": "@sound3vision",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "meme de liquidação, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdSajJ0MdJl",
+    "url": "https://www.instagram.com/p/DdSajJ0MdJl",
+    "handle": "@stripmecamisetas",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "liquidação/% off — boilerplate raso"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdRYZ0QjipX",
+    "url": "https://www.instagram.com/p/DdRYZ0QjipX",
+    "handle": "@elcabriton",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "banner de evento de arte, sem roupa"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdZLg8wDh6Z",
+    "url": "https://www.instagram.com/p/DdZLg8wDh6Z",
+    "handle": "@kyokiescookiesartesanais",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "cookie decorado, sem moda"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdTjcrzAYM7",
+    "url": "https://www.instagram.com/p/DdTjcrzAYM7",
+    "handle": "@elcabriton",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "banner de evento, sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdZLej6OLzA",
+    "url": "https://www.instagram.com/p/DdZLej6OLzA",
+    "handle": "@kyokiescookiesartesanais",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "cookie decorado, sem moda"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdB9f8KFKxX",
+    "url": "https://www.instagram.com/p/DdB9f8KFKxX",
+    "handle": "@desgosto",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo balde still de desgosto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdFM2G_lOMl",
+    "url": "https://www.instagram.com/p/DdFM2G_lOMl",
+    "handle": "@desgosto",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo balde still de desgosto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdH-XUvjf4Q",
+    "url": "https://www.instagram.com/p/DdH-XUvjf4Q",
+    "handle": "@desgosto",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "redundante — mesmo balde still de desgosto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdMJoZSkYsV",
+    "url": "https://www.instagram.com/p/DdMJoZSkYsV",
+    "handle": "@carnan",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "still raso, não mostra a estampa mencionada na legenda"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdO1V_YEco-",
+    "url": "https://www.instagram.com/p/DdO1V_YEco-",
+    "handle": "@carnan",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "still isolado sem camada clara"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdW3TfREcYf",
+    "url": "https://www.instagram.com/p/DdW3TfREcYf",
+    "handle": "@carnan",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "fundo de estúdio puro"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdKIgDsspN7",
+    "url": "https://www.instagram.com/p/DdKIgDsspN7",
+    "handle": "@carnan",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "desfile institucional, fora do mundo Moxie"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUExPCEbum",
+    "url": "https://www.instagram.com/p/DdUExPCEbum",
+    "handle": "@newdivisionshop",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "brechó/revenda, fundo branco, comercial direto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdZMonHkU6N",
+    "url": "https://www.instagram.com/p/DdZMonHkU6N",
+    "handle": "@newdivisionshop",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "brechó/revenda, fundo branco, comercial direto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DbyDSxVkWnL",
+    "url": "https://www.instagram.com/p/DbyDSxVkWnL",
+    "handle": "@midas____touch",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "still de still simples, sem destaque"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "Dcd92pMRomO",
+    "url": "https://www.instagram.com/p/Dcd92pMRomO",
+    "handle": "@midas____touch",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "pede engajamento (nome de campanha), sem produto"
+    },
+    "foi_correcao": false
+  },
+  {
+    "shortCode": "DdUdoWZJVR0",
+    "url": "https://www.instagram.com/p/DdUdoWZJVR0",
+    "handle": "@midas____touch",
+    "data": "2026-09-17",
+    "analise": {
+      "o_que_e": "",
+      "angulo": "",
+      "profundidade": "raso",
+      "sinais": ""
+    },
+    "proposta": {
+      "card": null,
+      "funil": null,
+      "objetivo": null,
+      "sensacao": [],
+      "formato": [],
+      "confianca": "alta"
+    },
+    "decisao": {
+      "acao": "rejeitado",
+      "card_final": null,
+      "tags_final": null,
+      "motivo": "bastidor de loja sem produto em foco"
+    },
+    "foi_correcao": false
   }
 ]
